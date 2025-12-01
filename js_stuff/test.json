@@ -1,0 +1,2682 @@
+[
+  {
+    "Id": 1618703,
+    "Key": "66107667-ed87-4d08-ab32-e97885dc7dfb",
+    "PupilId": 7255,
+    "ContentRaw": "4",
+    "Content": "4",
+    "Comment": "",
+    "Value": 4,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1758723843857,
+      "Date": "2025-09-24",
+      "DateDisplay": "24.09.2025",
+      "Time": "16:24:03"
+    },
+    "CreatedAt": "2025-09-24T16:24:03.8570000+02:00",
+    "DateModify": {
+      "Timestamp": 1758723843857,
+      "Date": "2025-09-24",
+      "DateDisplay": "24.09.2025",
+      "Time": "16:24:03"
+    },
+    "ModifiedAt": "2025-09-24T16:24:03.8570000+02:00",
+    "Creator": {
+      "Id": 130,
+      "Surname": "Dębiec",
+      "Name": "Elżbieta",
+      "DisplayName": "Elżbieta Dębiec"
+    },
+    "Modifier": {
+      "Id": 130,
+      "Surname": "Dębiec",
+      "Name": "Elżbieta",
+      "DisplayName": "Elżbieta Dębiec"
+    },
+    "Column": {
+      "Id": 194689,
+      "Key": "8ffa8777-0a5c-46c9-b33c-c80c3c76f84d",
+      "PeriodId": 6898,
+      "Name": "mitologia - problematyka",
+      "Code": "K",
+      "Group": "",
+      "Number": 4,
+      "Color": 0,
+      "Weight": 2,
+      "Subject": {
+        "Id": 210,
+        "Key": "4330d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Język polski",
+        "Kod": "j. polski",
+        "Position": 67
+      },
+      "Category": {
+        "Id": 18,
+        "Name": "Kartkówka",
+        "Code": "Kart"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1630509,
+    "Key": "c67bf18c-8d0a-4d90-ba71-bf33115c4172",
+    "PupilId": 7255,
+    "ContentRaw": "2",
+    "Content": "2",
+    "Comment": "",
+    "Value": 2,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1760113954290,
+      "Date": "2025-10-10",
+      "DateDisplay": "10.10.2025",
+      "Time": "18:32:34"
+    },
+    "CreatedAt": "2025-10-10T18:32:34.2900000+02:00",
+    "DateModify": {
+      "Timestamp": 1760113954290,
+      "Date": "2025-10-10",
+      "DateDisplay": "10.10.2025",
+      "Time": "18:32:34"
+    },
+    "ModifiedAt": "2025-10-10T18:32:34.2900000+02:00",
+    "Creator": {
+      "Id": 130,
+      "Surname": "Dębiec",
+      "Name": "Elżbieta",
+      "DisplayName": "Elżbieta Dębiec"
+    },
+    "Modifier": {
+      "Id": 130,
+      "Surname": "Dębiec",
+      "Name": "Elżbieta",
+      "DisplayName": "Elżbieta Dębiec"
+    },
+    "Column": {
+      "Id": 196116,
+      "Key": "4a66d00a-3729-4936-a92e-6a6004c6fa85",
+      "PeriodId": 6898,
+      "Name": "Król Edyp - problematyka",
+      "Code": "K",
+      "Group": "",
+      "Number": 5,
+      "Color": 0,
+      "Weight": 2,
+      "Subject": {
+        "Id": 210,
+        "Key": "4330d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Język polski",
+        "Kod": "j. polski",
+        "Position": 67
+      },
+      "Category": {
+        "Id": 18,
+        "Name": "Kartkówka",
+        "Code": "Kart"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1630532,
+    "Key": "bec5a201-a6d7-405c-9e10-d95f75dc8d2f",
+    "PupilId": 7255,
+    "ContentRaw": "4",
+    "Content": "4",
+    "Comment": "",
+    "Value": 4,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1760113954353,
+      "Date": "2025-10-10",
+      "DateDisplay": "10.10.2025",
+      "Time": "18:32:34"
+    },
+    "CreatedAt": "2025-10-10T18:32:34.3530000+02:00",
+    "DateModify": {
+      "Timestamp": 1760113954353,
+      "Date": "2025-10-10",
+      "DateDisplay": "10.10.2025",
+      "Time": "18:32:34"
+    },
+    "ModifiedAt": "2025-10-10T18:32:34.3530000+02:00",
+    "Creator": {
+      "Id": 130,
+      "Surname": "Dębiec",
+      "Name": "Elżbieta",
+      "DisplayName": "Elżbieta Dębiec"
+    },
+    "Modifier": {
+      "Id": 130,
+      "Surname": "Dębiec",
+      "Name": "Elżbieta",
+      "DisplayName": "Elżbieta Dębiec"
+    },
+    "Column": {
+      "Id": 196117,
+      "Key": "d80fed07-045d-4168-a086-a4b4c303f698",
+      "PeriodId": 6898,
+      "Name": "Prawa boskie i ludzkie w Antygonie - czytanie ze zrozumieniem",
+      "Code": "Czz",
+      "Group": "",
+      "Number": 6,
+      "Color": 0,
+      "Weight": 2,
+      "Subject": {
+        "Id": 210,
+        "Key": "4330d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Język polski",
+        "Kod": "j. polski",
+        "Position": 67
+      },
+      "Category": {
+        "Id": 21,
+        "Name": "Praca na lekcji",
+        "Code": "PnaL"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1631945,
+    "Key": "c2e580f8-f8ad-4d35-bfe4-97e884c0e0d5",
+    "PupilId": 7255,
+    "ContentRaw": "2",
+    "Content": "2",
+    "Comment": "",
+    "Value": 2,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1760527523093,
+      "Date": "2025-10-15",
+      "DateDisplay": "15.10.2025",
+      "Time": "13:25:23"
+    },
+    "CreatedAt": "2025-10-15T13:25:23.0930000+02:00",
+    "DateModify": {
+      "Timestamp": 1760527523093,
+      "Date": "2025-10-15",
+      "DateDisplay": "15.10.2025",
+      "Time": "13:25:23"
+    },
+    "ModifiedAt": "2025-10-15T13:25:23.0930000+02:00",
+    "Creator": {
+      "Id": 130,
+      "Surname": "Dębiec",
+      "Name": "Elżbieta",
+      "DisplayName": "Elżbieta Dębiec"
+    },
+    "Modifier": {
+      "Id": 130,
+      "Surname": "Dębiec",
+      "Name": "Elżbieta",
+      "DisplayName": "Elżbieta Dębiec"
+    },
+    "Column": {
+      "Id": 196121,
+      "Key": "62a7769c-8616-45b9-bada-6fd828bca67a",
+      "PeriodId": 6898,
+      "Name": "Antygona - znajomość treści lektury",
+      "Code": "K",
+      "Group": "",
+      "Number": 7,
+      "Color": 7261447,
+      "Weight": 2,
+      "Subject": {
+        "Id": 210,
+        "Key": "4330d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Język polski",
+        "Kod": "j. polski",
+        "Position": 67
+      },
+      "Category": {
+        "Id": 18,
+        "Name": "Kartkówka",
+        "Code": "Kart"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1645681,
+    "Key": "6dd5bf96-e196-47f3-88f9-d52d1f19b24d",
+    "PupilId": 7255,
+    "ContentRaw": "3",
+    "Content": "3",
+    "Comment": "",
+    "Value": 3,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1761738927263,
+      "Date": "2025-10-29",
+      "DateDisplay": "29.10.2025",
+      "Time": "12:55:27"
+    },
+    "CreatedAt": "2025-10-29T12:55:27.2630000+01:00",
+    "DateModify": {
+      "Timestamp": 1761738927263,
+      "Date": "2025-10-29",
+      "DateDisplay": "29.10.2025",
+      "Time": "12:55:27"
+    },
+    "ModifiedAt": "2025-10-29T12:55:27.2630000+01:00",
+    "Creator": {
+      "Id": 130,
+      "Surname": "Dębiec",
+      "Name": "Elżbieta",
+      "DisplayName": "Elżbieta Dębiec"
+    },
+    "Modifier": {
+      "Id": 130,
+      "Surname": "Dębiec",
+      "Name": "Elżbieta",
+      "DisplayName": "Elżbieta Dębiec"
+    },
+    "Column": {
+      "Id": 197696,
+      "Key": "390b390f-ecf4-49ae-97f0-536314aff711",
+      "PeriodId": 6898,
+      "Name": "Antygona - problematyka",
+      "Code": "S",
+      "Group": "",
+      "Number": 8,
+      "Color": 15748172,
+      "Weight": 3,
+      "Subject": {
+        "Id": 210,
+        "Key": "4330d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Język polski",
+        "Kod": "j. polski",
+        "Position": 67
+      },
+      "Category": {
+        "Id": 19,
+        "Name": "Sprawdzian",
+        "Code": "Spr"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1654409,
+    "Key": "a63fdedb-eb70-4286-b293-fcd67f011c1d",
+    "PupilId": 7255,
+    "ContentRaw": "4",
+    "Content": "4",
+    "Comment": "",
+    "Value": 4,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1762506257020,
+      "Date": "2025-11-07",
+      "DateDisplay": "07.11.2025",
+      "Time": "10:04:17"
+    },
+    "CreatedAt": "2025-11-07T10:04:17.0200000+01:00",
+    "DateModify": {
+      "Timestamp": 1762506257020,
+      "Date": "2025-11-07",
+      "DateDisplay": "07.11.2025",
+      "Time": "10:04:17"
+    },
+    "ModifiedAt": "2025-11-07T10:04:17.0200000+01:00",
+    "Creator": {
+      "Id": 130,
+      "Surname": "Dębiec",
+      "Name": "Elżbieta",
+      "DisplayName": "Elżbieta Dębiec"
+    },
+    "Modifier": {
+      "Id": 130,
+      "Surname": "Dębiec",
+      "Name": "Elżbieta",
+      "DisplayName": "Elżbieta Dębiec"
+    },
+    "Column": {
+      "Id": 198626,
+      "Key": "0252a19c-2390-4dfb-9939-2e8b842e7d5a",
+      "PeriodId": 6898,
+      "Name": "związki frazeologiczne z mitologii i Biblii",
+      "Code": "K",
+      "Group": "",
+      "Number": 9,
+      "Color": 0,
+      "Weight": 2,
+      "Subject": {
+        "Id": 210,
+        "Key": "4330d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Język polski",
+        "Kod": "j. polski",
+        "Position": 67
+      },
+      "Category": {
+        "Id": 18,
+        "Name": "Kartkówka",
+        "Code": "Kart"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1641019,
+    "Key": "2b37e98d-2bc1-451f-86c9-11c80c6ef558",
+    "PupilId": 7255,
+    "ContentRaw": "5",
+    "Content": "5",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1761301335213,
+      "Date": "2025-10-24",
+      "DateDisplay": "24.10.2025",
+      "Time": "12:22:15"
+    },
+    "CreatedAt": "2025-10-24T12:22:15.2130000+02:00",
+    "DateModify": {
+      "Timestamp": 1761301335213,
+      "Date": "2025-10-24",
+      "DateDisplay": "24.10.2025",
+      "Time": "12:22:15"
+    },
+    "ModifiedAt": "2025-10-24T12:22:15.2130000+02:00",
+    "Creator": {
+      "Id": 73,
+      "Surname": "Małkiewicz",
+      "Name": "Mariusz",
+      "DisplayName": "Mariusz Małkiewicz"
+    },
+    "Modifier": {
+      "Id": 73,
+      "Surname": "Małkiewicz",
+      "Name": "Mariusz",
+      "DisplayName": "Mariusz Małkiewicz"
+    },
+    "Column": {
+      "Id": 196228,
+      "Key": "8a4eb53b-76ad-4475-b096-d7376f75f5e5",
+      "PeriodId": 6898,
+      "Name": "aktywność",
+      "Code": "akt",
+      "Group": "",
+      "Number": 1,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 211,
+        "Key": "4430d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Język angielski",
+        "Kod": "j. angielski",
+        "Position": 55
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1636143,
+    "Key": "5fd930ef-de16-4a70-a114-93c3d59a6e95",
+    "PupilId": 7255,
+    "ContentRaw": "4",
+    "Content": "4",
+    "Comment": "",
+    "Value": 4,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1760959903743,
+      "Date": "2025-10-20",
+      "DateDisplay": "20.10.2025",
+      "Time": "13:31:43"
+    },
+    "CreatedAt": "2025-10-20T13:31:43.7430000+02:00",
+    "DateModify": {
+      "Timestamp": 1760959903743,
+      "Date": "2025-10-20",
+      "DateDisplay": "20.10.2025",
+      "Time": "13:31:43"
+    },
+    "ModifiedAt": "2025-10-20T13:31:43.7430000+02:00",
+    "Creator": {
+      "Id": 73,
+      "Surname": "Małkiewicz",
+      "Name": "Mariusz",
+      "DisplayName": "Mariusz Małkiewicz"
+    },
+    "Modifier": {
+      "Id": 73,
+      "Surname": "Małkiewicz",
+      "Name": "Mariusz",
+      "DisplayName": "Mariusz Małkiewicz"
+    },
+    "Column": {
+      "Id": 196229,
+      "Key": "5992c0ef-5086-4079-99ca-0d8325656d34",
+      "PeriodId": 6898,
+      "Name": "Słówka - wygląd, charakter",
+      "Code": "krt",
+      "Group": "",
+      "Number": 2,
+      "Color": 7261447,
+      "Weight": 1,
+      "Subject": {
+        "Id": 211,
+        "Key": "4430d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Język angielski",
+        "Kod": "j. angielski",
+        "Position": 55
+      },
+      "Category": {
+        "Id": 18,
+        "Name": "Kartkówka",
+        "Code": "Kart"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1650008,
+    "Key": "5c7536dc-7286-47f5-b07f-fcde60de69bf",
+    "PupilId": 7255,
+    "ContentRaw": "5",
+    "Content": "5",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1762173390773,
+      "Date": "2025-11-03",
+      "DateDisplay": "03.11.2025",
+      "Time": "13:36:30"
+    },
+    "CreatedAt": "2025-11-03T13:36:30.7730000+01:00",
+    "DateModify": {
+      "Timestamp": 1762173390773,
+      "Date": "2025-11-03",
+      "DateDisplay": "03.11.2025",
+      "Time": "13:36:30"
+    },
+    "ModifiedAt": "2025-11-03T13:36:30.7730000+01:00",
+    "Creator": {
+      "Id": 73,
+      "Surname": "Małkiewicz",
+      "Name": "Mariusz",
+      "DisplayName": "Mariusz Małkiewicz"
+    },
+    "Modifier": {
+      "Id": 73,
+      "Surname": "Małkiewicz",
+      "Name": "Mariusz",
+      "DisplayName": "Mariusz Małkiewicz"
+    },
+    "Column": {
+      "Id": 198106,
+      "Key": "426261a9-b5a2-4b7a-a9cc-913069159cc9",
+      "PeriodId": 6898,
+      "Name": "test leksyk.-gramat. Unit 1",
+      "Code": "tst",
+      "Group": "",
+      "Number": 4,
+      "Color": 7261447,
+      "Weight": 2,
+      "Subject": {
+        "Id": 211,
+        "Key": "4430d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Język angielski",
+        "Kod": "j. angielski",
+        "Position": 55
+      },
+      "Category": {
+        "Id": 19,
+        "Name": "Sprawdzian",
+        "Code": "Spr"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1655434,
+    "Key": "71de275a-5103-4340-ab2c-e806839cabd5",
+    "PupilId": 7255,
+    "ContentRaw": "5",
+    "Content": "5",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1762847112823,
+      "Date": "2025-11-11",
+      "DateDisplay": "11.11.2025",
+      "Time": "08:45:12"
+    },
+    "CreatedAt": "2025-11-11T08:45:12.8230000+01:00",
+    "DateModify": {
+      "Timestamp": 1762847112823,
+      "Date": "2025-11-11",
+      "DateDisplay": "11.11.2025",
+      "Time": "08:45:12"
+    },
+    "ModifiedAt": "2025-11-11T08:45:12.8230000+01:00",
+    "Creator": {
+      "Id": 73,
+      "Surname": "Małkiewicz",
+      "Name": "Mariusz",
+      "DisplayName": "Mariusz Małkiewicz"
+    },
+    "Modifier": {
+      "Id": 73,
+      "Surname": "Małkiewicz",
+      "Name": "Mariusz",
+      "DisplayName": "Mariusz Małkiewicz"
+    },
+    "Column": {
+      "Id": 198152,
+      "Key": "4e93da08-40a0-4e1f-be1d-fb264157f920",
+      "PeriodId": 6898,
+      "Name": "Test w formie matury Unit 1.",
+      "Code": "tst",
+      "Group": "",
+      "Number": 5,
+      "Color": 15748172,
+      "Weight": 3,
+      "Subject": {
+        "Id": 211,
+        "Key": "4430d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Język angielski",
+        "Kod": "j. angielski",
+        "Position": 55
+      },
+      "Category": {
+        "Id": 19,
+        "Name": "Sprawdzian",
+        "Code": "Spr"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1616547,
+    "Key": "2f8de8a5-303f-482b-81d7-11d75a72bcfb",
+    "PupilId": 7255,
+    "ContentRaw": "5",
+    "Content": "5",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1758523907243,
+      "Date": "2025-09-22",
+      "DateDisplay": "22.09.2025",
+      "Time": "08:51:47"
+    },
+    "CreatedAt": "2025-09-22T08:51:47.2430000+02:00",
+    "DateModify": {
+      "Timestamp": 1758523907243,
+      "Date": "2025-09-22",
+      "DateDisplay": "22.09.2025",
+      "Time": "08:51:47"
+    },
+    "ModifiedAt": "2025-09-22T08:51:47.2430000+02:00",
+    "Creator": {
+      "Id": 67,
+      "Surname": "Kępka",
+      "Name": "Anna",
+      "DisplayName": "Anna Kępka"
+    },
+    "Modifier": {
+      "Id": 67,
+      "Surname": "Kępka",
+      "Name": "Anna",
+      "DisplayName": "Anna Kępka"
+    },
+    "Column": {
+      "Id": 194115,
+      "Key": "75fe4d39-eda0-44d1-adc7-21dff57d61c6",
+      "PeriodId": 6898,
+      "Name": "liczebniki, przedstawianie się",
+      "Code": "krt",
+      "Group": "",
+      "Number": 3,
+      "Color": 0,
+      "Weight": 2,
+      "Subject": {
+        "Id": 215,
+        "Key": "4830d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Język niemiecki",
+        "Kod": "j. niemiecki",
+        "Position": 62
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1625332,
+    "Key": "67755a41-c6ed-4218-afd7-ee41630df54e",
+    "PupilId": 7255,
+    "ContentRaw": "4",
+    "Content": "4",
+    "Comment": "",
+    "Value": 4,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1759733271630,
+      "Date": "2025-10-06",
+      "DateDisplay": "06.10.2025",
+      "Time": "08:47:51"
+    },
+    "CreatedAt": "2025-10-06T08:47:51.6300000+02:00",
+    "DateModify": {
+      "Timestamp": 1759733271630,
+      "Date": "2025-10-06",
+      "DateDisplay": "06.10.2025",
+      "Time": "08:47:51"
+    },
+    "ModifiedAt": "2025-10-06T08:47:51.6300000+02:00",
+    "Creator": {
+      "Id": 67,
+      "Surname": "Kępka",
+      "Name": "Anna",
+      "DisplayName": "Anna Kępka"
+    },
+    "Modifier": {
+      "Id": 67,
+      "Surname": "Kępka",
+      "Name": "Anna",
+      "DisplayName": "Anna Kępka"
+    },
+    "Column": {
+      "Id": 195533,
+      "Key": "8e8b9472-0a39-49be-8688-6e3c1681a76e",
+      "PeriodId": 6898,
+      "Name": "powitania, samopoczucie, czasownik",
+      "Code": "krt",
+      "Group": "",
+      "Number": 5,
+      "Color": 0,
+      "Weight": 2,
+      "Subject": {
+        "Id": 215,
+        "Key": "4830d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Język niemiecki",
+        "Kod": "j. niemiecki",
+        "Position": 62
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1648955,
+    "Key": "7991b24b-b1cf-4b93-ad50-66e3d5cfb542",
+    "PupilId": 7255,
+    "ContentRaw": "2",
+    "Content": "2",
+    "Comment": "",
+    "Value": 2,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1762157035290,
+      "Date": "2025-11-03",
+      "DateDisplay": "03.11.2025",
+      "Time": "09:03:55"
+    },
+    "CreatedAt": "2025-11-03T09:03:55.2900000+01:00",
+    "DateModify": {
+      "Timestamp": 1762157035290,
+      "Date": "2025-11-03",
+      "DateDisplay": "03.11.2025",
+      "Time": "09:03:55"
+    },
+    "ModifiedAt": "2025-11-03T09:03:55.2900000+01:00",
+    "Creator": {
+      "Id": 67,
+      "Surname": "Kępka",
+      "Name": "Anna",
+      "DisplayName": "Anna Kępka"
+    },
+    "Modifier": {
+      "Id": 67,
+      "Surname": "Kępka",
+      "Name": "Anna",
+      "DisplayName": "Anna Kępka"
+    },
+    "Column": {
+      "Id": 197781,
+      "Key": "3df9e913-25dd-4447-ab0e-87d8ecd78462",
+      "PeriodId": 6898,
+      "Name": "narodowości",
+      "Code": "krt",
+      "Group": "",
+      "Number": 6,
+      "Color": 0,
+      "Weight": 2,
+      "Subject": {
+        "Id": 215,
+        "Key": "4830d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Język niemiecki",
+        "Kod": "j. niemiecki",
+        "Position": 62
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1660967,
+    "Key": "cab5cc18-23a5-4c6e-9667-6962cd1406c0",
+    "PupilId": 7255,
+    "ContentRaw": "4",
+    "Content": "4",
+    "Comment": "",
+    "Value": 4,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1763367720883,
+      "Date": "2025-11-17",
+      "DateDisplay": "17.11.2025",
+      "Time": "09:22:00"
+    },
+    "CreatedAt": "2025-11-17T09:22:00.8830000+01:00",
+    "DateModify": {
+      "Timestamp": 1763367720883,
+      "Date": "2025-11-17",
+      "DateDisplay": "17.11.2025",
+      "Time": "09:22:00"
+    },
+    "ModifiedAt": "2025-11-17T09:22:00.8830000+01:00",
+    "Creator": {
+      "Id": 67,
+      "Surname": "Kępka",
+      "Name": "Anna",
+      "DisplayName": "Anna Kępka"
+    },
+    "Modifier": {
+      "Id": 67,
+      "Surname": "Kępka",
+      "Name": "Anna",
+      "DisplayName": "Anna Kępka"
+    },
+    "Column": {
+      "Id": 198919,
+      "Key": "29175f63-5df8-4b4a-9a3b-b4a4a1cf5c4f",
+      "PeriodId": 6898,
+      "Name": "",
+      "Code": "kp",
+      "Group": "",
+      "Number": 7,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 215,
+        "Key": "4830d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Język niemiecki",
+        "Kod": "j. niemiecki",
+        "Position": 62
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1621924,
+    "Key": "e5e78586-1cc0-4013-a866-771f17c8205a",
+    "PupilId": 7255,
+    "ContentRaw": "5",
+    "Content": "5",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1759234143403,
+      "Date": "2025-09-30",
+      "DateDisplay": "30.09.2025",
+      "Time": "14:09:03"
+    },
+    "CreatedAt": "2025-09-30T14:09:03.4030000+02:00",
+    "DateModify": {
+      "Timestamp": 1759234143403,
+      "Date": "2025-09-30",
+      "DateDisplay": "30.09.2025",
+      "Time": "14:09:03"
+    },
+    "ModifiedAt": "2025-09-30T14:09:03.4030000+02:00",
+    "Creator": {
+      "Id": 94,
+      "Surname": "Białkowska - Pietrzak",
+      "Name": "Anna",
+      "DisplayName": "Anna Białkowska - Pietrzak"
+    },
+    "Modifier": {
+      "Id": 94,
+      "Surname": "Białkowska - Pietrzak",
+      "Name": "Anna",
+      "DisplayName": "Anna Białkowska - Pietrzak"
+    },
+    "Column": {
+      "Id": 195075,
+      "Key": "d22311ab-34b6-484b-97e2-3d34f768a067",
+      "PeriodId": 6898,
+      "Name": "praca z tekstem",
+      "Code": "pt",
+      "Group": "",
+      "Number": 1,
+      "Color": 0,
+      "Weight": 2,
+      "Subject": {
+        "Id": 256,
+        "Key": "7030d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Historia",
+        "Kod": "historia",
+        "Position": 50
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1653214,
+    "Key": "767d6501-5c87-42e6-afca-d14fac755512",
+    "PupilId": 7255,
+    "ContentRaw": "4",
+    "Content": "4",
+    "Comment": "",
+    "Value": 4,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1762422037377,
+      "Date": "2025-11-06",
+      "DateDisplay": "06.11.2025",
+      "Time": "10:40:37"
+    },
+    "CreatedAt": "2025-11-06T10:40:37.3770000+01:00",
+    "DateModify": {
+      "Timestamp": 1762422037377,
+      "Date": "2025-11-06",
+      "DateDisplay": "06.11.2025",
+      "Time": "10:40:37"
+    },
+    "ModifiedAt": "2025-11-06T10:40:37.3770000+01:00",
+    "Creator": {
+      "Id": 94,
+      "Surname": "Białkowska - Pietrzak",
+      "Name": "Anna",
+      "DisplayName": "Anna Białkowska - Pietrzak"
+    },
+    "Modifier": {
+      "Id": 94,
+      "Surname": "Białkowska - Pietrzak",
+      "Name": "Anna",
+      "DisplayName": "Anna Białkowska - Pietrzak"
+    },
+    "Column": {
+      "Id": 198477,
+      "Key": "d6479855-a109-4937-8caf-272debfe28e9",
+      "PeriodId": 6898,
+      "Name": "kartkówka",
+      "Code": "K",
+      "Group": "",
+      "Number": 2,
+      "Color": 2139383,
+      "Weight": 2,
+      "Subject": {
+        "Id": 256,
+        "Key": "7030d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Historia",
+        "Kod": "historia",
+        "Position": 50
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1615267,
+    "Key": "95f48d96-8d60-4d91-9541-02031c41290c",
+    "PupilId": 7255,
+    "ContentRaw": "4 (2+)",
+    "Content": "4",
+    "Comment": "2+",
+    "Value": 4,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1758179737243,
+      "Date": "2025-09-18",
+      "DateDisplay": "18.09.2025",
+      "Time": "09:15:37"
+    },
+    "CreatedAt": "2025-09-18T09:15:37.2430000+02:00",
+    "DateModify": {
+      "Timestamp": 1759172766280,
+      "Date": "2025-09-29",
+      "DateDisplay": "29.09.2025",
+      "Time": "21:06:06"
+    },
+    "ModifiedAt": "2025-09-29T21:06:06.2800000+02:00",
+    "Creator": {
+      "Id": 86,
+      "Surname": "Warnowska",
+      "Name": "Marta",
+      "DisplayName": "Marta Warnowska"
+    },
+    "Modifier": {
+      "Id": 86,
+      "Surname": "Warnowska",
+      "Name": "Marta",
+      "DisplayName": "Marta Warnowska"
+    },
+    "Column": {
+      "Id": 194173,
+      "Key": "ad92ee7b-6cc0-45fb-b3e8-286735de4ce1",
+      "PeriodId": 6898,
+      "Name": "liczby naturalne, całkowite, wymierne",
+      "Code": "lic",
+      "Group": "",
+      "Number": 2,
+      "Color": 2139383,
+      "Weight": 2,
+      "Subject": {
+        "Id": 264,
+        "Key": "7830d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Matematyka",
+        "Kod": "matematyka",
+        "Position": 85
+      },
+      "Category": {
+        "Id": 18,
+        "Name": "Kartkówka",
+        "Code": "Kart"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1618482,
+    "Key": "f85d153b-ba75-4f0d-b33d-e81fc71a376a",
+    "PupilId": 7255,
+    "ContentRaw": "5",
+    "Content": "5",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1758712224203,
+      "Date": "2025-09-24",
+      "DateDisplay": "24.09.2025",
+      "Time": "13:10:24"
+    },
+    "CreatedAt": "2025-09-24T13:10:24.2030000+02:00",
+    "DateModify": {
+      "Timestamp": 1758712224203,
+      "Date": "2025-09-24",
+      "DateDisplay": "24.09.2025",
+      "Time": "13:10:24"
+    },
+    "ModifiedAt": "2025-09-24T13:10:24.2030000+02:00",
+    "Creator": {
+      "Id": 86,
+      "Surname": "Warnowska",
+      "Name": "Marta",
+      "DisplayName": "Marta Warnowska"
+    },
+    "Modifier": {
+      "Id": 86,
+      "Surname": "Warnowska",
+      "Name": "Marta",
+      "DisplayName": "Marta Warnowska"
+    },
+    "Column": {
+      "Id": 194657,
+      "Key": "b287c633-d920-4b72-bbfc-08f014ce3561",
+      "PeriodId": 6898,
+      "Name": "",
+      "Code": "pd",
+      "Group": "",
+      "Number": 4,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 264,
+        "Key": "7830d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Matematyka",
+        "Kod": "matematyka",
+        "Position": 85
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1621290,
+    "Key": "55171df3-c91c-4bbb-95a8-dd23dd741492",
+    "PupilId": 7255,
+    "ContentRaw": "4+",
+    "Content": "4+",
+    "Comment": "",
+    "Value": 4,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1759172766250,
+      "Date": "2025-09-29",
+      "DateDisplay": "29.09.2025",
+      "Time": "21:06:06"
+    },
+    "CreatedAt": "2025-09-29T21:06:06.2500000+02:00",
+    "DateModify": {
+      "Timestamp": 1759172766250,
+      "Date": "2025-09-29",
+      "DateDisplay": "29.09.2025",
+      "Time": "21:06:06"
+    },
+    "ModifiedAt": "2025-09-29T21:06:06.2500000+02:00",
+    "Creator": {
+      "Id": 86,
+      "Surname": "Warnowska",
+      "Name": "Marta",
+      "DisplayName": "Marta Warnowska"
+    },
+    "Modifier": {
+      "Id": 86,
+      "Surname": "Warnowska",
+      "Name": "Marta",
+      "DisplayName": "Marta Warnowska"
+    },
+    "Column": {
+      "Id": 195013,
+      "Key": "c2b1dfa7-1dbd-4868-acca-a15ecbfbf82f",
+      "PeriodId": 6898,
+      "Name": "potegi pierwiastki",
+      "Code": "pp",
+      "Group": "",
+      "Number": 5,
+      "Color": 2139383,
+      "Weight": 2,
+      "Subject": {
+        "Id": 264,
+        "Key": "7830d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Matematyka",
+        "Kod": "matematyka",
+        "Position": 85
+      },
+      "Category": {
+        "Id": 18,
+        "Name": "Kartkówka",
+        "Code": "Kart"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1664006,
+    "Key": "7e990db5-e7fb-4bbf-b944-5cc466a9f06d",
+    "PupilId": 7255,
+    "ContentRaw": "3-",
+    "Content": "3-",
+    "Comment": "",
+    "Value": 3,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1763540695140,
+      "Date": "2025-11-19",
+      "DateDisplay": "19.11.2025",
+      "Time": "09:24:55"
+    },
+    "CreatedAt": "2025-11-19T09:24:55.1400000+01:00",
+    "DateModify": {
+      "Timestamp": 1763540695140,
+      "Date": "2025-11-19",
+      "DateDisplay": "19.11.2025",
+      "Time": "09:24:55"
+    },
+    "ModifiedAt": "2025-11-19T09:24:55.1400000+01:00",
+    "Creator": {
+      "Id": 86,
+      "Surname": "Warnowska",
+      "Name": "Marta",
+      "DisplayName": "Marta Warnowska"
+    },
+    "Modifier": {
+      "Id": 86,
+      "Surname": "Warnowska",
+      "Name": "Marta",
+      "DisplayName": "Marta Warnowska"
+    },
+    "Column": {
+      "Id": 199475,
+      "Key": "d533acad-a6c1-49ea-a26b-f60158e34d56",
+      "PeriodId": 6898,
+      "Name": "liczby rzeczywiste",
+      "Code": "lic",
+      "Group": "",
+      "Number": 7,
+      "Color": 15748172,
+      "Weight": 3,
+      "Subject": {
+        "Id": 264,
+        "Key": "7830d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Matematyka",
+        "Kod": "matematyka",
+        "Position": 85
+      },
+      "Category": {
+        "Id": 19,
+        "Name": "Sprawdzian",
+        "Code": "Spr"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1664310,
+    "Key": "68c26783-5e6a-4473-8b72-6a6dab0a7015",
+    "PupilId": 7255,
+    "ContentRaw": "5-",
+    "Content": "5-",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1763547491507,
+      "Date": "2025-11-19",
+      "DateDisplay": "19.11.2025",
+      "Time": "11:18:11"
+    },
+    "CreatedAt": "2025-11-19T11:18:11.5070000+01:00",
+    "DateModify": {
+      "Timestamp": 1763547491507,
+      "Date": "2025-11-19",
+      "DateDisplay": "19.11.2025",
+      "Time": "11:18:11"
+    },
+    "ModifiedAt": "2025-11-19T11:18:11.5070000+01:00",
+    "Creator": {
+      "Id": 86,
+      "Surname": "Warnowska",
+      "Name": "Marta",
+      "DisplayName": "Marta Warnowska"
+    },
+    "Modifier": {
+      "Id": 86,
+      "Surname": "Warnowska",
+      "Name": "Marta",
+      "DisplayName": "Marta Warnowska"
+    },
+    "Column": {
+      "Id": 199504,
+      "Key": "755d2360-0269-4a90-81b8-713205ed9fd4",
+      "PeriodId": 6898,
+      "Name": "przedziały liczbowe i działania na nich",
+      "Code": "prz",
+      "Group": "",
+      "Number": 8,
+      "Color": 2139383,
+      "Weight": 2,
+      "Subject": {
+        "Id": 264,
+        "Key": "7830d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Matematyka",
+        "Kod": "matematyka",
+        "Position": 85
+      },
+      "Category": {
+        "Id": 18,
+        "Name": "Kartkówka",
+        "Code": "Kart"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1640733,
+    "Key": "8c3514ef-c19a-4937-8f5a-439e373081dd",
+    "PupilId": 7255,
+    "ContentRaw": "2",
+    "Content": "2",
+    "Comment": "",
+    "Value": 2,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1761293877537,
+      "Date": "2025-10-24",
+      "DateDisplay": "24.10.2025",
+      "Time": "10:17:57"
+    },
+    "CreatedAt": "2025-10-24T10:17:57.5370000+02:00",
+    "DateModify": {
+      "Timestamp": 1761293877537,
+      "Date": "2025-10-24",
+      "DateDisplay": "24.10.2025",
+      "Time": "10:17:57"
+    },
+    "ModifiedAt": "2025-10-24T10:17:57.5370000+02:00",
+    "Creator": {
+      "Id": 72,
+      "Surname": "Ługowska",
+      "Name": "Wioleta",
+      "DisplayName": "Wioleta Ługowska"
+    },
+    "Modifier": {
+      "Id": 72,
+      "Surname": "Ługowska",
+      "Name": "Wioleta",
+      "DisplayName": "Wioleta Ługowska"
+    },
+    "Column": {
+      "Id": 197182,
+      "Key": "34d7cdd7-364e-4e8f-97eb-ee781240d735",
+      "PeriodId": 6898,
+      "Name": "kinematyka zadania",
+      "Code": "S1",
+      "Group": "",
+      "Number": 4,
+      "Color": 15748172,
+      "Weight": 2,
+      "Subject": {
+        "Id": 265,
+        "Key": "7930d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Fizyka",
+        "Kod": "fizyka",
+        "Position": 40
+      },
+      "Category": {
+        "Id": 19,
+        "Name": "Sprawdzian",
+        "Code": "Spr"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1640763,
+    "Key": "10fc8792-56bb-4e67-a8fc-69497258fe61",
+    "PupilId": 7255,
+    "ContentRaw": "6",
+    "Content": "6",
+    "Comment": "",
+    "Value": 6,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1761294447710,
+      "Date": "2025-10-24",
+      "DateDisplay": "24.10.2025",
+      "Time": "10:27:27"
+    },
+    "CreatedAt": "2025-10-24T10:27:27.7100000+02:00",
+    "DateModify": {
+      "Timestamp": 1761294447710,
+      "Date": "2025-10-24",
+      "DateDisplay": "24.10.2025",
+      "Time": "10:27:27"
+    },
+    "ModifiedAt": "2025-10-24T10:27:27.7100000+02:00",
+    "Creator": {
+      "Id": 72,
+      "Surname": "Ługowska",
+      "Name": "Wioleta",
+      "DisplayName": "Wioleta Ługowska"
+    },
+    "Modifier": {
+      "Id": 72,
+      "Surname": "Ługowska",
+      "Name": "Wioleta",
+      "DisplayName": "Wioleta Ługowska"
+    },
+    "Column": {
+      "Id": 197184,
+      "Key": "9ea19823-1e7e-479b-9d64-5cab83fe87fa",
+      "PeriodId": 6898,
+      "Name": "kinemtyka teoria",
+      "Code": "S1",
+      "Group": "",
+      "Number": 5,
+      "Color": 7261447,
+      "Weight": 2,
+      "Subject": {
+        "Id": 265,
+        "Key": "7930d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Fizyka",
+        "Kod": "fizyka",
+        "Position": 40
+      },
+      "Category": {
+        "Id": 19,
+        "Name": "Sprawdzian",
+        "Code": "Spr"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1637024,
+    "Key": "d348bcf7-f27b-4fb8-ac71-0299dd028f62",
+    "PupilId": 7255,
+    "ContentRaw": "3",
+    "Content": "3",
+    "Comment": "",
+    "Value": 3,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1761039303203,
+      "Date": "2025-10-21",
+      "DateDisplay": "21.10.2025",
+      "Time": "11:35:03"
+    },
+    "CreatedAt": "2025-10-21T11:35:03.2030000+02:00",
+    "DateModify": {
+      "Timestamp": 1761039303203,
+      "Date": "2025-10-21",
+      "DateDisplay": "21.10.2025",
+      "Time": "11:35:03"
+    },
+    "ModifiedAt": "2025-10-21T11:35:03.2030000+02:00",
+    "Creator": {
+      "Id": 91,
+      "Surname": "Wasilewska",
+      "Name": "Magdalena",
+      "DisplayName": "Magdalena Wasilewska"
+    },
+    "Modifier": {
+      "Id": 91,
+      "Surname": "Wasilewska",
+      "Name": "Magdalena",
+      "DisplayName": "Magdalena Wasilewska"
+    },
+    "Column": {
+      "Id": 196773,
+      "Key": "a13cd7b6-c563-42c8-bddf-a718694be2a6",
+      "PeriodId": 6898,
+      "Name": "badania",
+      "Code": "K1",
+      "Group": "",
+      "Number": 1,
+      "Color": 15748172,
+      "Weight": 1,
+      "Subject": {
+        "Id": 269,
+        "Key": "7c30d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Biologia",
+        "Kod": "biologia",
+        "Position": 9
+      },
+      "Category": {
+        "Id": 19,
+        "Name": "Sprawdzian",
+        "Code": "Spr"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1651136,
+    "Key": "6366acc2-c830-4735-9f8c-60da39091abd",
+    "PupilId": 7255,
+    "ContentRaw": "5",
+    "Content": "5",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1762257698677,
+      "Date": "2025-11-04",
+      "DateDisplay": "04.11.2025",
+      "Time": "13:01:38"
+    },
+    "CreatedAt": "2025-11-04T13:01:38.6770000+01:00",
+    "DateModify": {
+      "Timestamp": 1762257698677,
+      "Date": "2025-11-04",
+      "DateDisplay": "04.11.2025",
+      "Time": "13:01:38"
+    },
+    "ModifiedAt": "2025-11-04T13:01:38.6770000+01:00",
+    "Creator": {
+      "Id": 91,
+      "Surname": "Wasilewska",
+      "Name": "Magdalena",
+      "DisplayName": "Magdalena Wasilewska"
+    },
+    "Modifier": {
+      "Id": 91,
+      "Surname": "Wasilewska",
+      "Name": "Magdalena",
+      "DisplayName": "Magdalena Wasilewska"
+    },
+    "Column": {
+      "Id": 197568,
+      "Key": "c8ecb655-dd94-4c72-b4e2-4d136ff3947b",
+      "PeriodId": 6898,
+      "Name": "Węglowodany i znaczenie",
+      "Code": "K2",
+      "Group": "",
+      "Number": 3,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 269,
+        "Key": "7c30d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Biologia",
+        "Kod": "biologia",
+        "Position": 9
+      },
+      "Category": null
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1637753,
+    "Key": "4d66e010-9016-4df8-87db-119a77e55c94",
+    "PupilId": 7255,
+    "ContentRaw": "5-",
+    "Content": "5-",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1761073561413,
+      "Date": "2025-10-21",
+      "DateDisplay": "21.10.2025",
+      "Time": "21:06:01"
+    },
+    "CreatedAt": "2025-10-21T21:06:01.4130000+02:00",
+    "DateModify": {
+      "Timestamp": 1761073561413,
+      "Date": "2025-10-21",
+      "DateDisplay": "21.10.2025",
+      "Time": "21:06:01"
+    },
+    "ModifiedAt": "2025-10-21T21:06:01.4130000+02:00",
+    "Creator": {
+      "Id": 295,
+      "Surname": "Wasiak",
+      "Name": "Andrzej",
+      "DisplayName": "Andrzej Wasiak"
+    },
+    "Modifier": {
+      "Id": 295,
+      "Surname": "Wasiak",
+      "Name": "Andrzej",
+      "DisplayName": "Andrzej Wasiak"
+    },
+    "Column": {
+      "Id": 196851,
+      "Key": "141935be-55a4-4731-a01a-3e432bd61b40",
+      "PeriodId": 6898,
+      "Name": "Kartkówka. Mapa i skala.",
+      "Code": "3",
+      "Group": "",
+      "Number": 3,
+      "Color": 0,
+      "Weight": 2,
+      "Subject": {
+        "Id": 270,
+        "Key": "7d30d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Geografia",
+        "Kod": "geografia",
+        "Position": 43
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1663621,
+    "Key": "d9884dda-5bb3-40dc-909f-becd4b1e5d19",
+    "PupilId": 7255,
+    "ContentRaw": "5-",
+    "Content": "5-",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1763491624587,
+      "Date": "2025-11-18",
+      "DateDisplay": "18.11.2025",
+      "Time": "19:47:04"
+    },
+    "CreatedAt": "2025-11-18T19:47:04.5870000+01:00",
+    "DateModify": {
+      "Timestamp": 1763491624587,
+      "Date": "2025-11-18",
+      "DateDisplay": "18.11.2025",
+      "Time": "19:47:04"
+    },
+    "ModifiedAt": "2025-11-18T19:47:04.5870000+01:00",
+    "Creator": {
+      "Id": 295,
+      "Surname": "Wasiak",
+      "Name": "Andrzej",
+      "DisplayName": "Andrzej Wasiak"
+    },
+    "Modifier": {
+      "Id": 295,
+      "Surname": "Wasiak",
+      "Name": "Andrzej",
+      "DisplayName": "Andrzej Wasiak"
+    },
+    "Column": {
+      "Id": 197678,
+      "Key": "3c0963ed-7e1f-42dc-93bf-94b515d544e2",
+      "PeriodId": 6898,
+      "Name": "Opis mapy turystycznej.",
+      "Code": "4",
+      "Group": "",
+      "Number": 4,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 270,
+        "Key": "7d30d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Geografia",
+        "Kod": "geografia",
+        "Position": 43
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1627149,
+    "Key": "ffc7a79c-9953-47d7-961f-7513e40b4146",
+    "PupilId": 7255,
+    "ContentRaw": "4+",
+    "Content": "4+",
+    "Comment": "",
+    "Value": 4,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1759828047790,
+      "Date": "2025-10-07",
+      "DateDisplay": "07.10.2025",
+      "Time": "11:07:27"
+    },
+    "CreatedAt": "2025-10-07T11:07:27.7900000+02:00",
+    "DateModify": {
+      "Timestamp": 1759828047790,
+      "Date": "2025-10-07",
+      "DateDisplay": "07.10.2025",
+      "Time": "11:07:27"
+    },
+    "ModifiedAt": "2025-10-07T11:07:27.7900000+02:00",
+    "Creator": {
+      "Id": 53,
+      "Surname": "Susik",
+      "Name": "Tomasz",
+      "DisplayName": "Tomasz Susik"
+    },
+    "Modifier": {
+      "Id": 53,
+      "Surname": "Susik",
+      "Name": "Tomasz",
+      "DisplayName": "Tomasz Susik"
+    },
+    "Column": {
+      "Id": 195635,
+      "Key": "0977af68-3f8c-49a5-afb5-89c40f9005a8",
+      "PeriodId": 6898,
+      "Name": "Kartkówka wirusy komputerowe",
+      "Code": "K1",
+      "Group": "",
+      "Number": 1,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 277,
+        "Key": "8430d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Informatyka",
+        "Kod": "informatyka",
+        "Position": 53
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1662623,
+    "Key": "82122de9-558e-4618-b3a8-b2951c9c37b3",
+    "PupilId": 7255,
+    "ContentRaw": "5",
+    "Content": "5",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1763457326753,
+      "Date": "2025-11-18",
+      "DateDisplay": "18.11.2025",
+      "Time": "10:15:26"
+    },
+    "CreatedAt": "2025-11-18T10:15:26.7530000+01:00",
+    "DateModify": {
+      "Timestamp": 1763460728163,
+      "Date": "2025-11-18",
+      "DateDisplay": "18.11.2025",
+      "Time": "11:12:08"
+    },
+    "ModifiedAt": "2025-11-18T11:12:08.1630000+01:00",
+    "Creator": {
+      "Id": 53,
+      "Surname": "Susik",
+      "Name": "Tomasz",
+      "DisplayName": "Tomasz Susik"
+    },
+    "Modifier": {
+      "Id": 53,
+      "Surname": "Susik",
+      "Name": "Tomasz",
+      "DisplayName": "Tomasz Susik"
+    },
+    "Column": {
+      "Id": 195646,
+      "Key": "0b8b8cdc-6fb8-4ca3-b176-8420fbdc1a2b",
+      "PeriodId": 6898,
+      "Name": "Aktywność",
+      "Code": "A",
+      "Group": "",
+      "Number": 2,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 277,
+        "Key": "8430d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Informatyka",
+        "Kod": "informatyka",
+        "Position": 53
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1637028,
+    "Key": "1e75a2f8-f2cf-42e0-8c94-53bc87a4742b",
+    "PupilId": 7255,
+    "ContentRaw": "5-",
+    "Content": "5-",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1761039324993,
+      "Date": "2025-10-21",
+      "DateDisplay": "21.10.2025",
+      "Time": "11:35:24"
+    },
+    "CreatedAt": "2025-10-21T11:35:24.9930000+02:00",
+    "DateModify": {
+      "Timestamp": 1761039324993,
+      "Date": "2025-10-21",
+      "DateDisplay": "21.10.2025",
+      "Time": "11:35:24"
+    },
+    "ModifiedAt": "2025-10-21T11:35:24.9930000+02:00",
+    "Creator": {
+      "Id": 53,
+      "Surname": "Susik",
+      "Name": "Tomasz",
+      "DisplayName": "Tomasz Susik"
+    },
+    "Modifier": {
+      "Id": 53,
+      "Surname": "Susik",
+      "Name": "Tomasz",
+      "DisplayName": "Tomasz Susik"
+    },
+    "Column": {
+      "Id": 196769,
+      "Key": "ffdda91c-ad07-474a-9be2-d3139b07a5ba",
+      "PeriodId": 6898,
+      "Name": "Zaliczenie word",
+      "Code": "Z1",
+      "Group": "",
+      "Number": 3,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 277,
+        "Key": "8430d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Informatyka",
+        "Kod": "informatyka",
+        "Position": 53
+      },
+      "Category": {
+        "Id": 27,
+        "Name": "Zadania praktyczne",
+        "Code": "ZP"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1650797,
+    "Key": "cc89f3f6-ddc3-4b3a-90dc-568f4627386d",
+    "PupilId": 7255,
+    "ContentRaw": "4-",
+    "Content": "4-",
+    "Comment": "",
+    "Value": 4,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1762248862753,
+      "Date": "2025-11-04",
+      "DateDisplay": "04.11.2025",
+      "Time": "10:34:22"
+    },
+    "CreatedAt": "2025-11-04T10:34:22.7530000+01:00",
+    "DateModify": {
+      "Timestamp": 1762248862753,
+      "Date": "2025-11-04",
+      "DateDisplay": "04.11.2025",
+      "Time": "10:34:22"
+    },
+    "ModifiedAt": "2025-11-04T10:34:22.7530000+01:00",
+    "Creator": {
+      "Id": 53,
+      "Surname": "Susik",
+      "Name": "Tomasz",
+      "DisplayName": "Tomasz Susik"
+    },
+    "Modifier": {
+      "Id": 53,
+      "Surname": "Susik",
+      "Name": "Tomasz",
+      "DisplayName": "Tomasz Susik"
+    },
+    "Column": {
+      "Id": 198087,
+      "Key": "6fc4abf2-f4f7-496c-8578-64c64ab9c19c",
+      "PeriodId": 6898,
+      "Name": "Prezentacja Excel",
+      "Code": "P",
+      "Group": "",
+      "Number": 4,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 277,
+        "Key": "8430d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Informatyka",
+        "Kod": "informatyka",
+        "Position": 53
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1632272,
+    "Key": "709bc790-19ba-4c0a-bfd0-a0ff44f73e22",
+    "PupilId": 7255,
+    "ContentRaw": "5",
+    "Content": "5",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1760562119837,
+      "Date": "2025-10-15",
+      "DateDisplay": "15.10.2025",
+      "Time": "23:01:59"
+    },
+    "CreatedAt": "2025-10-15T23:01:59.8370000+02:00",
+    "DateModify": {
+      "Timestamp": 1760562119837,
+      "Date": "2025-10-15",
+      "DateDisplay": "15.10.2025",
+      "Time": "23:01:59"
+    },
+    "ModifiedAt": "2025-10-15T23:01:59.8370000+02:00",
+    "Creator": {
+      "Id": 131,
+      "Surname": "Antosik",
+      "Name": "Małgorzata",
+      "DisplayName": "Małgorzata Antosik"
+    },
+    "Modifier": {
+      "Id": 131,
+      "Surname": "Antosik",
+      "Name": "Małgorzata",
+      "DisplayName": "Małgorzata Antosik"
+    },
+    "Column": {
+      "Id": 195796,
+      "Key": "ede6dec6-3b63-438e-a4bb-591f64f9a456",
+      "PeriodId": 6898,
+      "Name": "ewakuacja alarmowanie",
+      "Code": "ea",
+      "Group": "",
+      "Number": 1,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 294,
+        "Key": "9530d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Edukacja dla bezpieczeństwa",
+        "Kod": "e_dla_bezp",
+        "Position": 20
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1663320,
+    "Key": "05aadcd8-b735-4029-9e5a-3751e08f5773",
+    "PupilId": 7255,
+    "ContentRaw": "5",
+    "Content": "5",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1763470270807,
+      "Date": "2025-11-18",
+      "DateDisplay": "18.11.2025",
+      "Time": "13:51:10"
+    },
+    "CreatedAt": "2025-11-18T13:51:10.8070000+01:00",
+    "DateModify": {
+      "Timestamp": 1763470270807,
+      "Date": "2025-11-18",
+      "DateDisplay": "18.11.2025",
+      "Time": "13:51:10"
+    },
+    "ModifiedAt": "2025-11-18T13:51:10.8070000+01:00",
+    "Creator": {
+      "Id": 131,
+      "Surname": "Antosik",
+      "Name": "Małgorzata",
+      "DisplayName": "Małgorzata Antosik"
+    },
+    "Modifier": {
+      "Id": 131,
+      "Surname": "Antosik",
+      "Name": "Małgorzata",
+      "DisplayName": "Małgorzata Antosik"
+    },
+    "Column": {
+      "Id": 197854,
+      "Key": "557e9094-2ba6-4a47-b817-8813ace34119",
+      "PeriodId": 6898,
+      "Name": "pozycja bezpieczna",
+      "Code": "pb",
+      "Group": "",
+      "Number": 2,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 294,
+        "Key": "9530d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Edukacja dla bezpieczeństwa",
+        "Kod": "e_dla_bezp",
+        "Position": 20
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1647263,
+    "Key": "53d1e916-e2cc-4235-8f92-d552d0350b0a",
+    "PupilId": 7255,
+    "ContentRaw": "5",
+    "Content": "5",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1761832253860,
+      "Date": "2025-10-30",
+      "DateDisplay": "30.10.2025",
+      "Time": "14:50:53"
+    },
+    "CreatedAt": "2025-10-30T14:50:53.8600000+01:00",
+    "DateModify": {
+      "Timestamp": 1761832253860,
+      "Date": "2025-10-30",
+      "DateDisplay": "30.10.2025",
+      "Time": "14:50:53"
+    },
+    "ModifiedAt": "2025-10-30T14:50:53.8600000+01:00",
+    "Creator": {
+      "Id": 131,
+      "Surname": "Antosik",
+      "Name": "Małgorzata",
+      "DisplayName": "Małgorzata Antosik"
+    },
+    "Modifier": {
+      "Id": 131,
+      "Surname": "Antosik",
+      "Name": "Małgorzata",
+      "DisplayName": "Małgorzata Antosik"
+    },
+    "Column": {
+      "Id": 197855,
+      "Key": "0b8e3116-c634-4a2a-9b53-6884e68403b6",
+      "PeriodId": 6898,
+      "Name": "chusta trójkątna",
+      "Code": "ch",
+      "Group": "",
+      "Number": 3,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 294,
+        "Key": "9530d8d5-6629-e611-9430-00155d5a5f15",
+        "Name": "Edukacja dla bezpieczeństwa",
+        "Kod": "e_dla_bezp",
+        "Position": 20
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1661417,
+    "Key": "74f90f1c-40a0-487c-b08f-86459717792a",
+    "PupilId": 7255,
+    "ContentRaw": "5",
+    "Content": "5",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1763377600630,
+      "Date": "2025-11-17",
+      "DateDisplay": "17.11.2025",
+      "Time": "12:06:40"
+    },
+    "CreatedAt": "2025-11-17T12:06:40.6300000+01:00",
+    "DateModify": {
+      "Timestamp": 1763377600630,
+      "Date": "2025-11-17",
+      "DateDisplay": "17.11.2025",
+      "Time": "12:06:40"
+    },
+    "ModifiedAt": "2025-11-17T12:06:40.6300000+01:00",
+    "Creator": {
+      "Id": 88,
+      "Surname": "Świeboda",
+      "Name": "Krzysztof",
+      "DisplayName": "Krzysztof Świeboda"
+    },
+    "Modifier": {
+      "Id": 88,
+      "Surname": "Świeboda",
+      "Name": "Krzysztof",
+      "DisplayName": "Krzysztof Świeboda"
+    },
+    "Column": {
+      "Id": 199224,
+      "Key": "d0d5b316-96de-4938-88b5-1bdb0601d670",
+      "PeriodId": 6898,
+      "Name": "Wprowadzenie do HTML",
+      "Code": "HT1",
+      "Group": "",
+      "Number": 1,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 1146,
+        "Key": "c8dd1fd3-fbe8-478a-a0c7-a5e77b1df9bb",
+        "Name": "Projektowanie i tworzenie stron internetowych",
+        "Kod": "proitwostrin",
+        "Position": 188
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1645531,
+    "Key": "46d9ef0c-5551-41c8-8b8f-0777442c689b",
+    "PupilId": 7255,
+    "ContentRaw": "2",
+    "Content": "2",
+    "Comment": "",
+    "Value": 2,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1761736189487,
+      "Date": "2025-10-29",
+      "DateDisplay": "29.10.2025",
+      "Time": "12:09:49"
+    },
+    "CreatedAt": "2025-10-29T12:09:49.4870000+01:00",
+    "DateModify": {
+      "Timestamp": 1761736189487,
+      "Date": "2025-10-29",
+      "DateDisplay": "29.10.2025",
+      "Time": "12:09:49"
+    },
+    "ModifiedAt": "2025-10-29T12:09:49.4870000+01:00",
+    "Creator": {
+      "Id": 55,
+      "Surname": "Wojtaszek",
+      "Name": "Maciej",
+      "DisplayName": "Maciej Wojtaszek"
+    },
+    "Modifier": {
+      "Id": 55,
+      "Surname": "Wojtaszek",
+      "Name": "Maciej",
+      "DisplayName": "Maciej Wojtaszek"
+    },
+    "Column": {
+      "Id": 197683,
+      "Key": "76777ec0-12a2-4281-a16f-104ee7ea5c87",
+      "PeriodId": 6898,
+      "Name": "algorytm, alementy diagramu",
+      "Code": "t1",
+      "Group": "",
+      "Number": 1,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 1147,
+        "Key": "b39f1a67-f6ae-4bc0-bc56-bf48fabd54fc",
+        "Name": "Projektowanie oprogramowania",
+        "Kod": "proj opro",
+        "Position": 190
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1652352,
+    "Key": "255dd228-6260-4e8c-85b4-64b00f76c022",
+    "PupilId": 7255,
+    "ContentRaw": "1",
+    "Content": "1",
+    "Comment": "",
+    "Value": 1,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1762341736880,
+      "Date": "2025-11-05",
+      "DateDisplay": "05.11.2025",
+      "Time": "12:22:16"
+    },
+    "CreatedAt": "2025-11-05T12:22:16.8800000+01:00",
+    "DateModify": {
+      "Timestamp": 1762341736880,
+      "Date": "2025-11-05",
+      "DateDisplay": "05.11.2025",
+      "Time": "12:22:16"
+    },
+    "ModifiedAt": "2025-11-05T12:22:16.8800000+01:00",
+    "Creator": {
+      "Id": 55,
+      "Surname": "Wojtaszek",
+      "Name": "Maciej",
+      "DisplayName": "Maciej Wojtaszek"
+    },
+    "Modifier": {
+      "Id": 55,
+      "Surname": "Wojtaszek",
+      "Name": "Maciej",
+      "DisplayName": "Maciej Wojtaszek"
+    },
+    "Column": {
+      "Id": 198364,
+      "Key": "b8841346-d4d0-4084-a15a-0541326a3473",
+      "PeriodId": 6898,
+      "Name": "Diagram 2 liczby",
+      "Code": "t2",
+      "Group": "",
+      "Number": 2,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 1147,
+        "Key": "b39f1a67-f6ae-4bc0-bc56-bf48fabd54fc",
+        "Name": "Projektowanie oprogramowania",
+        "Kod": "proj opro",
+        "Position": 190
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1628787,
+    "Key": "a3e283ef-421e-4455-8d3b-971771268d19",
+    "PupilId": 7255,
+    "ContentRaw": "5",
+    "Content": "5",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1759995876907,
+      "Date": "2025-10-09",
+      "DateDisplay": "09.10.2025",
+      "Time": "09:44:36"
+    },
+    "CreatedAt": "2025-10-09T09:44:36.9070000+02:00",
+    "DateModify": {
+      "Timestamp": 1759995876907,
+      "Date": "2025-10-09",
+      "DateDisplay": "09.10.2025",
+      "Time": "09:44:36"
+    },
+    "ModifiedAt": "2025-10-09T09:44:36.9070000+02:00",
+    "Creator": {
+      "Id": 53,
+      "Surname": "Susik",
+      "Name": "Tomasz",
+      "DisplayName": "Tomasz Susik"
+    },
+    "Modifier": {
+      "Id": 53,
+      "Surname": "Susik",
+      "Name": "Tomasz",
+      "DisplayName": "Tomasz Susik"
+    },
+    "Column": {
+      "Id": 195933,
+      "Key": "6324f76c-ebb2-43d4-bbd8-e0f99ff74704",
+      "PeriodId": 6898,
+      "Name": "Prezentacja Bazy danych",
+      "Code": "P",
+      "Group": "",
+      "Number": 1,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 1148,
+        "Key": "c3e7a733-892b-487d-aa26-245235950c05",
+        "Name": "Projektowanie i administrowanie bazami danych",
+        "Kod": "p i adm bd",
+        "Position": 187
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1628889,
+    "Key": "caa09530-c8eb-4054-98cb-bad91b52e34b",
+    "PupilId": 7255,
+    "ContentRaw": "5",
+    "Content": "5",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1759997951500,
+      "Date": "2025-10-09",
+      "DateDisplay": "09.10.2025",
+      "Time": "10:19:11"
+    },
+    "CreatedAt": "2025-10-09T10:19:11.5000000+02:00",
+    "DateModify": {
+      "Timestamp": 1759997951500,
+      "Date": "2025-10-09",
+      "DateDisplay": "09.10.2025",
+      "Time": "10:19:11"
+    },
+    "ModifiedAt": "2025-10-09T10:19:11.5000000+02:00",
+    "Creator": {
+      "Id": 55,
+      "Surname": "Wojtaszek",
+      "Name": "Maciej",
+      "DisplayName": "Maciej Wojtaszek"
+    },
+    "Modifier": {
+      "Id": 55,
+      "Surname": "Wojtaszek",
+      "Name": "Maciej",
+      "DisplayName": "Maciej Wojtaszek"
+    },
+    "Column": {
+      "Id": 195953,
+      "Key": "5dede8c0-766b-4858-a989-54200f0a534a",
+      "PeriodId": 6898,
+      "Name": "Zdanie logiczne, alternatywa",
+      "Code": "t1",
+      "Group": "",
+      "Number": 1,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 1149,
+        "Key": "c1333da1-9503-40c1-ab37-41b579f85e9d",
+        "Name": "Podstawy informatyki",
+        "Kod": "pods inf",
+        "Position": 124
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1628918,
+    "Key": "e102ff81-dd48-4597-b11b-1346c8127f3e",
+    "PupilId": 7255,
+    "ContentRaw": "5",
+    "Content": "5",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1759998328273,
+      "Date": "2025-10-09",
+      "DateDisplay": "09.10.2025",
+      "Time": "10:25:28"
+    },
+    "CreatedAt": "2025-10-09T10:25:28.2730000+02:00",
+    "DateModify": {
+      "Timestamp": 1759998328273,
+      "Date": "2025-10-09",
+      "DateDisplay": "09.10.2025",
+      "Time": "10:25:28"
+    },
+    "ModifiedAt": "2025-10-09T10:25:28.2730000+02:00",
+    "Creator": {
+      "Id": 55,
+      "Surname": "Wojtaszek",
+      "Name": "Maciej",
+      "DisplayName": "Maciej Wojtaszek"
+    },
+    "Modifier": {
+      "Id": 55,
+      "Surname": "Wojtaszek",
+      "Name": "Maciej",
+      "DisplayName": "Maciej Wojtaszek"
+    },
+    "Column": {
+      "Id": 195957,
+      "Key": "c16bce88-cfab-4954-a7f8-7f7f477b9d74",
+      "PeriodId": 6898,
+      "Name": "Alternatywa, koninunkcja, implikacja",
+      "Code": "t2",
+      "Group": "",
+      "Number": 2,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 1149,
+        "Key": "c1333da1-9503-40c1-ab37-41b579f85e9d",
+        "Name": "Podstawy informatyki",
+        "Kod": "pods inf",
+        "Position": 124
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1658572,
+    "Key": "3c3df2d0-e461-4af9-a09a-6bf20fe44cda",
+    "PupilId": 7255,
+    "ContentRaw": "5",
+    "Content": "5",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1763033270437,
+      "Date": "2025-11-13",
+      "DateDisplay": "13.11.2025",
+      "Time": "12:27:50"
+    },
+    "CreatedAt": "2025-11-13T12:27:50.4370000+01:00",
+    "DateModify": {
+      "Timestamp": 1763033270437,
+      "Date": "2025-11-13",
+      "DateDisplay": "13.11.2025",
+      "Time": "12:27:50"
+    },
+    "ModifiedAt": "2025-11-13T12:27:50.4370000+01:00",
+    "Creator": {
+      "Id": 55,
+      "Surname": "Wojtaszek",
+      "Name": "Maciej",
+      "DisplayName": "Maciej Wojtaszek"
+    },
+    "Modifier": {
+      "Id": 55,
+      "Surname": "Wojtaszek",
+      "Name": "Maciej",
+      "DisplayName": "Maciej Wojtaszek"
+    },
+    "Column": {
+      "Id": 198957,
+      "Key": "a877e411-c038-45d4-b8bf-9b47fc021e31",
+      "PeriodId": 6898,
+      "Name": "logika matematyczna",
+      "Code": "t3",
+      "Group": "",
+      "Number": 3,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 1149,
+        "Key": "c1333da1-9503-40c1-ab37-41b579f85e9d",
+        "Name": "Podstawy informatyki",
+        "Kod": "pods inf",
+        "Position": 124
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1661456,
+    "Key": "f1b6d274-ae1d-48e2-aadf-e9105b307fda",
+    "PupilId": 7255,
+    "ContentRaw": "5.5",
+    "Content": "5.5",
+    "Comment": "",
+    "Value": 5.5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1763379137127,
+      "Date": "2025-11-17",
+      "DateDisplay": "17.11.2025",
+      "Time": "12:32:17"
+    },
+    "CreatedAt": "2025-11-17T12:32:17.1270000+01:00",
+    "DateModify": {
+      "Timestamp": 1763379137127,
+      "Date": "2025-11-17",
+      "DateDisplay": "17.11.2025",
+      "Time": "12:32:17"
+    },
+    "ModifiedAt": "2025-11-17T12:32:17.1270000+01:00",
+    "Creator": {
+      "Id": 88,
+      "Surname": "Świeboda",
+      "Name": "Krzysztof",
+      "DisplayName": "Krzysztof Świeboda"
+    },
+    "Modifier": {
+      "Id": 88,
+      "Surname": "Świeboda",
+      "Name": "Krzysztof",
+      "DisplayName": "Krzysztof Świeboda"
+    },
+    "Column": {
+      "Id": 199235,
+      "Key": "eff7fa7f-6e1b-42e2-be76-4c60a3973dd2",
+      "PeriodId": 6898,
+      "Name": "Największa miasta Europy",
+      "Code": "HT2",
+      "Group": "",
+      "Number": 1,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 1150,
+        "Key": "21327d6f-77af-44cc-84a2-41fd01856be0",
+        "Name": "Pracownia stron internetowych",
+        "Kod": "pracstronint",
+        "Position": 166
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1661557,
+    "Key": "c2716563-da14-413f-b102-d0be04e49254",
+    "PupilId": 7255,
+    "ContentRaw": "5",
+    "Content": "5",
+    "Comment": "",
+    "Value": 5,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1763381965970,
+      "Date": "2025-11-17",
+      "DateDisplay": "17.11.2025",
+      "Time": "13:19:25"
+    },
+    "CreatedAt": "2025-11-17T13:19:25.9700000+01:00",
+    "DateModify": {
+      "Timestamp": 1763381965970,
+      "Date": "2025-11-17",
+      "DateDisplay": "17.11.2025",
+      "Time": "13:19:25"
+    },
+    "ModifiedAt": "2025-11-17T13:19:25.9700000+01:00",
+    "Creator": {
+      "Id": 88,
+      "Surname": "Świeboda",
+      "Name": "Krzysztof",
+      "DisplayName": "Krzysztof Świeboda"
+    },
+    "Modifier": {
+      "Id": 88,
+      "Surname": "Świeboda",
+      "Name": "Krzysztof",
+      "DisplayName": "Krzysztof Świeboda"
+    },
+    "Column": {
+      "Id": 199237,
+      "Key": "402a9436-c1ce-4a13-9ccd-95cd1643a401",
+      "PeriodId": 6898,
+      "Name": "Odsyłacze na stronie",
+      "Code": "HT3",
+      "Group": "",
+      "Number": 2,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 1150,
+        "Key": "21327d6f-77af-44cc-84a2-41fd01856be0",
+        "Name": "Pracownia stron internetowych",
+        "Kod": "pracstronint",
+        "Position": 166
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  },
+  {
+    "Id": 1657804,
+    "Key": "ab0e3691-e9af-4768-8167-e2d455002760",
+    "PupilId": 7255,
+    "ContentRaw": "4",
+    "Content": "4",
+    "Comment": "",
+    "Value": 4,
+    "Numerator": null,
+    "Denominator": null,
+    "DateCreated": {
+      "Timestamp": 1762965861237,
+      "Date": "2025-11-12",
+      "DateDisplay": "12.11.2025",
+      "Time": "17:44:21"
+    },
+    "CreatedAt": "2025-11-12T17:44:21.2370000+01:00",
+    "DateModify": {
+      "Timestamp": 1762965861237,
+      "Date": "2025-11-12",
+      "DateDisplay": "12.11.2025",
+      "Time": "17:44:21"
+    },
+    "ModifiedAt": "2025-11-12T17:44:21.2370000+01:00",
+    "Creator": {
+      "Id": 69,
+      "Surname": "Kolasińska - Burska",
+      "Name": "Magdalena",
+      "DisplayName": "Magdalena Kolasińska - Burska"
+    },
+    "Modifier": {
+      "Id": 69,
+      "Surname": "Kolasińska - Burska",
+      "Name": "Magdalena",
+      "DisplayName": "Magdalena Kolasińska - Burska"
+    },
+    "Column": {
+      "Id": 196962,
+      "Key": "59e2a9b1-46af-4b68-a696-3ba6cff96ee6",
+      "PeriodId": 6898,
+      "Name": "osoba przedsiębiorcza",
+      "Code": "spr",
+      "Group": "",
+      "Number": 2,
+      "Color": 0,
+      "Weight": 1,
+      "Subject": {
+        "Id": 2570,
+        "Key": "7cd0743c-f20a-ee11-9ab2-00155d0e3942",
+        "Name": "Biznes i zarządzanie",
+        "Kod": "BiZ",
+        "Position": 1000
+      },
+      "Category": {
+        "Id": 17,
+        "Name": "Bieżące",
+        "Code": "Bież"
+      }
+    },
+    "CorrectedGrade": null
+  }
+]
