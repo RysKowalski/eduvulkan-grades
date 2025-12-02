@@ -35,20 +35,8 @@ async function main() {
 
   const now = new Date();
 
-  // Monday as start of week
-  const day = now.getDay() === 0 ? 7 : now.getDay();
 
-  const dateFrom = new Date(now);
-  dateFrom.setDate(now.getDate() - (day - 1));
-  dateFrom.setHours(0, 0, 0, 0);
-
-  const dateTo = new Date(now);
-  dateTo.setDate(now.getDate() + (7 - day));
-  dateTo.setHours(23, 59, 59, 999);
-
-  console.log(dateFrom, dateTo);
-  // 7) fetch lessons
-  const resp = await heb.getChangedLessons(dateFrom, dateTo);
+  const resp = await heb.getGrades();
 
   json = JSON.stringify(resp.Envelope, null, 2);
   fs.writeFileSync('../raw.json', json, 'utf8')

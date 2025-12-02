@@ -210,3 +210,4 @@ node_modules
 package-lock.json
 package.json
 token.txt
+raw.json
