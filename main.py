@@ -40,6 +40,7 @@ def vizualize_grades(grades: dict[str, list[ProcessedGrade]]):
     max_subject_len: int = max(
         (len(viz_grade["subject"]) for viz_grade in viz_grades), default=0
     )
+
     max_grades_len: int = max(
         (len(" ".join(viz_grade["grades"])) for viz_grade in viz_grades), default=0
     )
@@ -54,7 +55,7 @@ def vizualize_grades(grades: dict[str, list[ProcessedGrade]]):
 
     for viz_grade in viz_grades:
         lines.append(
-            f"| {viz_grade['subject']} | {viz_grade['grades']} | {viz_grade['average']} |"
+            f"| {viz_grade['subject']} | {' '.join(viz_grade['grades']).ljust(max_grades_len)} | {viz_grade['average']} |"
         )
 
     separator: str = f"+{'-' * (max_subject_len + 2)}+{'-' * (max_grades_len + 2)}+{'-' * (max_average_len + 2)}+"

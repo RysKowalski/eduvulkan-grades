@@ -81,5 +81,4 @@ ProcessedGradeList = list[ProcessedGrade]
 class VizGrades(TypedDict):
     subject: str
     grades: list[str]
-    display_grades: str
     average: str
