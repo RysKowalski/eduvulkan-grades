@@ -69,9 +69,17 @@ GradeList = list[GradeItem]
 
 class ProcessedGrade(TypedDict):
     subject: str
-    value: float
+    value: float | None
+    content: str
     weight: int
     edited: int
 
 
 ProcessedGradeList = list[ProcessedGrade]
+
+
+class VizGrades(TypedDict):
+    subject: str
+    grades: list[str]
+    display_grades: str
+    average: str

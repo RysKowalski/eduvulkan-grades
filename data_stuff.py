@@ -12,8 +12,15 @@ def process_grade(grade: GradeItem) -> ProcessedGrade:
     subject: str = grade["Column"]["Subject"]["Name"]
     edited: int = grade["DateModify"]["Timestamp"]
     value: int = grade["Value"]
+    content: str = grade["Content"]
     weight: int = grade["Column"]["Weight"]
-    return {"subject": subject, "edited": edited, "value": value, "weight": weight}
+    return {
+        "subject": subject,
+        "edited": edited,
+        "value": value,
+        "content": content,
+        "weight": weight,
+    }
 
 
 def process_grades(grade_list: GradeList) -> ProcessedGradeList:
