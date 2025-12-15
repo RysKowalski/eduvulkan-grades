@@ -65,3 +65,13 @@ class GradeItem(TypedDict):
 
 # The full JSON is a list of GradeItem:
 GradeList = list[GradeItem]
+
+
+class ProcessedGrade(TypedDict):
+    subject: str
+    value: float
+    weight: int
+    edited: int
+
+
+ProcessedGradeList = list[ProcessedGrade]
