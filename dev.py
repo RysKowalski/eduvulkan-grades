@@ -1,6 +1,6 @@
 import json
 from statistics import mean
-from typing_stuff import ProcessedGradeList, ProcessedGrade, VizGrades
+from typing_stuff import ProcessedGradeList, VizGrades, SortedGrades
 
 
 def load_grades() -> ProcessedGradeList:
@@ -8,8 +8,8 @@ def load_grades() -> ProcessedGradeList:
         return json.load(file)
 
 
-def sort_grades(grade_list: ProcessedGradeList) -> dict[str, ProcessedGradeList]:
-    sorted_grades: dict[str, list[ProcessedGrade]] = {}
+def sort_grades(grade_list: ProcessedGradeList) -> SortedGrades:
+    sorted_grades: SortedGrades = {}
     for grade in grade_list:
         if grade["subject"] not in sorted_grades.keys():
             sorted_grades[grade["subject"]] = []
@@ -18,7 +18,7 @@ def sort_grades(grade_list: ProcessedGradeList) -> dict[str, ProcessedGradeList]
 
 
 def get_max_lenghts(
-    sorted_grades: dict[str, ProcessedGradeList],
+    sorted_grades: SortedGrades,
 ) -> tuple[int, int, int]:
     """
     takes sorted grades, outputs max lenghts of subjects, grades and averages after converting to str
@@ -40,7 +40,7 @@ def get_max_lenghts(
     return (max_subject_len, max_grade_len, max_average_len)
 
 
-def dev_viz(grades: dict[str, ProcessedGradeList]) -> None:
+def dev_viz(grades: SortedGrades) -> None:
     print(get_max_lenghts(grades))
     max_lenghts: tuple[int, int, int] = get_max_lenghts(grades)
     max_subject_len: int = max_lenghts[0]
@@ -48,7 +48,7 @@ def dev_viz(grades: dict[str, ProcessedGradeList]) -> None:
     max_average_len: int = max_lenghts[2]
 
 
-def vizualize_grades(grades: dict[str, ProcessedGradeList]):
+def vizualize_grades(grades: SortedGrades):
     viz_grades: list[VizGrades] = []  # subject, grades, average
     for grade_key in grades.keys():
         subject_str: str = grade_key
@@ -98,6 +98,6 @@ def vizualize_grades(grades: dict[str, ProcessedGradeList]):
 
 
 if __name__ == "__main__":
-    ugr = load_grades()
-    sgr = sort_grades(ugr)
+    ugr: ProcessedGradeList = load_grades()
+    sgr: SortedGrades = sort_grades(ugr)
     dev_viz(sgr)

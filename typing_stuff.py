@@ -82,3 +82,6 @@ class VizGrades(TypedDict):
     subject: str
     grades: list[str]
     average: str
+
+
+SortedGrades = dict[str, ProcessedGradeList]
