@@ -1,6 +1,6 @@
 import json
 from statistics import mean
-from typing_stuff import ProcessedGradeList, VizGrades, SortedGrades
+from typing_stuff import ProcessedGradeList, LineWork, SortedGrades
 
 
 def load_grades() -> ProcessedGradeList:
@@ -40,6 +40,12 @@ def get_max_lenghts(
     return (max_subject_len, max_grade_len, max_average_len)
 
 
+def construct_lines(
+    grades: SortedGrades, max_subject_len: int, max_grade_len: int, max_average_len: int
+) -> list[str]:
+    idkname: list[LineWork] = []
+
+
 def dev_viz(grades: SortedGrades) -> None:
     print(get_max_lenghts(grades))
     max_lenghts: tuple[int, int, int] = get_max_lenghts(grades)
@@ -47,9 +53,13 @@ def dev_viz(grades: SortedGrades) -> None:
     max_grade_len: int = max_lenghts[1]
     max_average_len: int = max_lenghts[2]
 
+    lines: list[str] = construct_lines(
+        grades, max_subject_len, max_grade_len, max_average_len
+    )
+
 
 def vizualize_grades(grades: SortedGrades):
-    viz_grades: list[VizGrades] = []  # subject, grades, average
+    viz_grades: list[LineWork] = []  # subject, grades, average
     for grade_key in grades.keys():
         subject_str: str = grade_key
 
