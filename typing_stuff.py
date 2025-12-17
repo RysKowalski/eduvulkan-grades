@@ -79,6 +79,16 @@ ProcessedGradeList = list[ProcessedGrade]
 
 
 class LineWork(TypedDict):
+    """subject: str
+    grades: list[str]
+    average: str"""
+
+    subject: str
+    grades: list[str]
+    average: str
+
+
+class VizGrades(TypedDict):
     subject: str
     grades: list[str]
     average: str

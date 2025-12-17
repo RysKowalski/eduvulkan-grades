@@ -44,6 +44,8 @@ def construct_lines(
     grades: SortedGrades, max_subject_len: int, max_grade_len: int, max_average_len: int
 ) -> list[str]:
     idkname: list[LineWork] = []
+    for grade_key, grade in grades.items():
+        ...
 
 
 def dev_viz(grades: SortedGrades) -> None:
