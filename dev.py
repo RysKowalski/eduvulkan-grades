@@ -62,14 +62,31 @@ def get_max_lenghts(
     return (max_subject_len, max_grade_len, max_average_len)
 
 
-def color_grade(grades: list[LineWork]) -> list[LineWork]:
+RESET_COLOR: str = "\033[0m"
+
+SUBJECT_COLOR: str = rgb("fg", fg=(19, 255, 255))  # #14FFFF
+VALUE_COLORS: dict[int, str] = {
+    1: "",
+    2: rgb("fg", (0, 255, 0)),
+    3: rgb("fg", (255, 0, 0)),
+}
+
+
+def color_grade(raw_grades: list[LineWork]) -> list[LineWork]:
+    grades: list[LineWork] = raw_grades.copy()
     for i, grade in enumerate(grades):
-        grade['subject'] = rgb('fg')
-        )
-        print(grade)
+        grades[i]["subject"] = SUBJECT_COLOR + grade["subject"] + RESET_COLOR
+        for i, grade_value_weight in enumerate(grade["grades"]):
+            grade["grades"][i]["grade"] = (
+                VALUE_COLORS[grade_value_weight["weight"]]
+                + grade_value_weight["grade"]
+                + RESET_COLOR
+            )
+    return grades
 
 
 def construct_LineWork(grades: SortedGrades) -> list[LineWork]:
+    """constructs LineWork from SortedGrades"""
     constructed_grades: list[LineWork] = []
     for grade_list_key, grade_list in grades.items():
         item_subject: str = grade_list_key
@@ -87,11 +104,20 @@ def construct_LineWork(grades: SortedGrades) -> list[LineWork]:
     return constructed_grades
 
 
+# TODO def format_grades(grades: list[LineWork]) ->
+
+
 def construct_lines(
     grades: SortedGrades, max_subject_len: int, max_grade_len: int, max_average_len: int
 ) -> list[str]:
     uncolored_grades: list[LineWork] = construct_LineWork(grades)
     colored_grades: list[LineWork] = color_grade(uncolored_grades)
+    for line in colored_grades:
+        print(
+            line["subject"],
+            " ".join([g["grade"] for g in line["grades"]]),
+            line["average"],
+        )
 
 
 def dev_viz(grades: SortedGrades) -> None:
