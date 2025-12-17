@@ -86,21 +86,39 @@ class ProcessedGrade(TypedDict):
 ProcessedGradeList = list[ProcessedGrade]
 
 
-class GradeAndWeight(TypedDict):
-    """grade: str
-    weight: int"""
+class GradeInfo(TypedDict):
+    """
+    grade: str
+    weight: int
+    display_len: int
+    """
 
     grade: str
     weight: int
+    display_len: int
 
 
 class LineWork(TypedDict):
-    """subject: str
+    """
+    subject: str
     grades: list[{"grade": str, "weight": int}]
-    average: str"""
+    average: str
+    """
 
     subject: str
-    grades: list[GradeAndWeight]
+    grades: list[GradeInfo]
+    average: str
+
+
+class FormatedLine(TypedDict):
+    """
+    subject: str
+    grades: str
+    average: str
+    """
+
+    subject: str
+    grades: str
     average: str
 
 
