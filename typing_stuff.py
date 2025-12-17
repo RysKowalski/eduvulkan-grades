@@ -96,11 +96,11 @@ class GradeAndWeight(TypedDict):
 
 class LineWork(TypedDict):
     """subject: str
-    grades: list[str]
+    grades: list[{"grade": str, "weight": int}]
     average: str"""
 
     subject: str
-    grades: list[str]
+    grades: list[GradeAndWeight]
     average: str
 
 

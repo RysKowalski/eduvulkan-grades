@@ -1,6 +1,28 @@
 import json
 from statistics import mean
-from typing_stuff import ProcessedGrade, ProcessedGradeList, LineWork, SortedGrades
+from typing import Literal
+from typing_stuff import (
+    ProcessedGrade,
+    ProcessedGradeList,
+    LineWork,
+    SortedGrades,
+    GradeAndWeight,
+)
+
+
+def rgb(
+    mode: Literal["fg", "bg", "both"],
+    fg: tuple[int, int, int] = (0, 0, 0),
+    bg: tuple[int, int, int] = (0, 0, 0),
+) -> str:
+    fr, fg_, fb = fg
+    br, bg_, bb = bg
+    if mode == "both":
+        return f"\033[38;2;{fr};{fg_};{fb}m\033[48;2;{br};{bg_};{bb}m"
+    elif mode == "fg":
+        return f"\033[38;2;{fr};{fg_};{fb}m"
+    elif mode == "bg":
+        return f"\033[48;2;{br};{bg_};{bb}m"
 
 
 def load_grades() -> ProcessedGradeList:
@@ -40,18 +62,21 @@ def get_max_lenghts(
     return (max_subject_len, max_grade_len, max_average_len)
 
 
-def color_grade(grade: ProcessedGrade) -> ProcessedGrade:
-    return grade
+def color_grade(grades: list[LineWork]) -> list[LineWork]:
+    for i, grade in enumerate(grades):
+        grade['subject'] = rgb('fg')
+        )
+        print(grade)
 
 
 def construct_LineWork(grades: SortedGrades) -> list[LineWork]:
     constructed_grades: list[LineWork] = []
     for grade_list_key, grade_list in grades.items():
         item_subject: str = grade_list_key
-        item_grades: list[str] = []
+        item_grades: list[GradeAndWeight] = []
         item_grade_values: list[float] = []
         for grade in grade_list:
-            item_grades.append(grade["content"])
+            item_grades.append({"grade": grade["content"], "weight": grade["weight"]})
             if grade["value"] is not None:
                 for _ in range(grade["weight"]):
                     item_grade_values.append(grade["value"])
@@ -66,7 +91,7 @@ def construct_lines(
     grades: SortedGrades, max_subject_len: int, max_grade_len: int, max_average_len: int
 ) -> list[str]:
     uncolored_grades: list[LineWork] = construct_LineWork(grades)
-    print(uncolored_grades)
+    colored_grades: list[LineWork] = color_grade(uncolored_grades)
 
 
 def dev_viz(grades: SortedGrades) -> None:
