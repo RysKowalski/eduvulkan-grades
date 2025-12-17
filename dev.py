@@ -1,6 +1,6 @@
 import json
 from statistics import mean
-from typing_stuff import ProcessedGradeList, LineWork, SortedGrades
+from typing_stuff import ProcessedGrade, ProcessedGradeList, LineWork, SortedGrades
 
 
 def load_grades() -> ProcessedGradeList:
@@ -40,12 +40,33 @@ def get_max_lenghts(
     return (max_subject_len, max_grade_len, max_average_len)
 
 
+def color_grade(grade: ProcessedGrade) -> ProcessedGrade:
+    return grade
+
+
+def construct_LineWork(grades: SortedGrades) -> list[LineWork]:
+    constructed_grades: list[LineWork] = []
+    for grade_list_key, grade_list in grades.items():
+        item_subject: str = grade_list_key
+        item_grades: list[str] = []
+        item_grade_values: list[float] = []
+        for grade in grade_list:
+            item_grades.append(grade["content"])
+            if grade["value"] is not None:
+                for _ in range(grade["weight"]):
+                    item_grade_values.append(grade["value"])
+        item_average: str = str(mean(item_grade_values))
+        constructed_grades.append(
+            {"subject": item_subject, "grades": item_grades, "average": item_average}
+        )
+    return constructed_grades
+
+
 def construct_lines(
     grades: SortedGrades, max_subject_len: int, max_grade_len: int, max_average_len: int
 ) -> list[str]:
-    idkname: list[LineWork] = []
-    for grade_key, grade in grades.items():
-        ...
+    uncolored_grades: list[LineWork] = construct_LineWork(grades)
+    print(uncolored_grades)
 
 
 def dev_viz(grades: SortedGrades) -> None:

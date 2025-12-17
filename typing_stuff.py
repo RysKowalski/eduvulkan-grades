@@ -68,6 +68,14 @@ GradeList = list[GradeItem]
 
 
 class ProcessedGrade(TypedDict):
+    """
+    subject: str
+    value: float | None
+    content: str
+    weight: int
+    edited: int
+    """
+
     subject: str
     value: float | None
     content: str
@@ -76,6 +84,14 @@ class ProcessedGrade(TypedDict):
 
 
 ProcessedGradeList = list[ProcessedGrade]
+
+
+class GradeAndWeight(TypedDict):
+    """grade: str
+    weight: int"""
+
+    grade: str
+    weight: int
 
 
 class LineWork(TypedDict):
