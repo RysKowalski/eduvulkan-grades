@@ -116,6 +116,9 @@ def construct_LineWork(grades: SortedGrades) -> list[LineWork]:
     return constructed_grades
 
 
+#
+
+
 def format_grades(
     grades: list[LineWork], max_subject_len, max_grade_len, max_average_len
 ) -> list[FormattedLine]:
