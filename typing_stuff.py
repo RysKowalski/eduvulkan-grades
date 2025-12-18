@@ -125,6 +125,9 @@ class FormattedLine(TypedDict):
     subject: str
     grades: str
     average: str
+    subject_len: int
+    grades_len: int
+    average_len: int
 
 
 class VizGrades(TypedDict):

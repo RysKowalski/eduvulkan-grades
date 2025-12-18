@@ -3,7 +3,6 @@ from statistics import mean
 from typing import Literal
 from typing_stuff import (
     FormattedLine,
-    ProcessedGrade,
     ProcessedGradeList,
     LineWork,
     SortedGrades,
@@ -86,7 +85,12 @@ def get_max_lenghts(
     return (max_subject_len, max_grade_len, max_average_len)
 
 
-def construct_LineWork(grades: SortedGrades) -> list[LineWork]:
+def construct_LineWork(
+    grades: SortedGrades,
+    max_subject_len: int,
+    max_grades_len: int,
+    max_average_len: int,
+) -> list[LineWork]:
     """constructs LineWork from SortedGrades"""
     constructed_grades: list[LineWork] = []
     for grade_list_key, grade_list in grades.items():
@@ -116,9 +120,6 @@ def construct_LineWork(grades: SortedGrades) -> list[LineWork]:
     return constructed_grades
 
 
-#
-
-
 def format_grades(
     grades: list[LineWork], max_subject_len, max_grade_len, max_average_len
 ) -> list[FormattedLine]:
@@ -139,7 +140,14 @@ def format_grades(
 
         average_str: str = grade["average"].ljust(max_average_len)
         formated_lines.append(
-            {"subject": subject_str, "grades": grades_str, "average": average_str}
+            {
+                "subject": subject_str,
+                "grades": grades_str,
+                "average": average_str,
+                "subject_len": max_subject_len + 2,
+                "grades_len": max_grade_len + 2,
+                "average_len": max_average_len + 2,
+            }
         )
     return formated_lines
 
@@ -147,13 +155,25 @@ def format_grades(
 def construct_lines(
     grades: SortedGrades, max_subject_len: int, max_grade_len: int, max_average_len: int
 ) -> list[str]:
-    uncolored_grades: list[LineWork] = construct_LineWork(grades)
+    uncolored_grades: list[LineWork] = construct_LineWork(
+        grades, max_subject_len, max_grade_len, max_average_len
+    )
     colored_grades: list[LineWork] = color_grade(uncolored_grades)
     formatted_lines: list[FormattedLine] = format_grades(
         colored_grades, max_subject_len, max_grade_len, max_average_len
     )
+    done_lines: list[str] = []
     for line in formatted_lines:
-        print("|", line["subject"], "|", line["grades"], "|", line["average"], "|")
+        done_lines.append(
+            f"| {line['subject']} | {line['grades']} | {line['average']} |"
+        )
+    return done_lines
+
+
+def construct_separator(subject_len: int, grades_len: int, average_len: int) -> str:
+    return (
+        f"+{'-' * (subject_len + 2)}+{'-' * (grades_len + 2)}+{'-' * (average_len + 2)}"
+    )
 
 
 def dev_viz(grades: SortedGrades) -> None:
@@ -166,55 +186,14 @@ def dev_viz(grades: SortedGrades) -> None:
     lines: list[str] = construct_lines(
         grades, max_subject_len, max_grade_len, max_average_len
     )
-
-
-def vizualize_grades(grades: SortedGrades):
-    viz_grades: list[LineWork] = []  # subject, grades, average
-    for grade_key in grades.keys():
-        subject_str: str = grade_key
-
-        grades_str_list: list[str] = []
-        for grade in sorted(grades[grade_key], key=lambda g: g["edited"], reverse=True):
-            grades_str_list.append(str(grade["content"]))
-
-        grade_values: list[float] = []
-        for grade in grades[grade_key]:
-            if grade["value"] is not None:
-                for _ in range(grade["weight"]):
-                    grade_values.append(grade["value"])
-
-        average_str: str = str(round(mean(grade_values), 3))
-        viz_grades.append(
-            {"subject": subject_str, "grades": grades_str_list, "average": average_str}
-        )
-
-    max_subject_len: int = max(
-        (len(viz_grade["subject"]) for viz_grade in viz_grades), default=0
+    separator: str = construct_separator(
+        max_subject_len, max_grade_len, max_average_len
     )
 
-    max_grades_len: int = max(
-        (len(" ".join(viz_grade["grades"])) for viz_grade in viz_grades), default=0
-    )
-    max_average_len: int = max(
-        (len(viz_grade["average"]) for viz_grade in viz_grades), default=0
-    )
-
-    lines: list[str] = []
-    for i, viz_grade in enumerate(viz_grades):
-        viz_grades[i]["subject"] = viz_grade["subject"].center(max_subject_len)
-        viz_grades[i]["average"] = viz_grade["average"].center(max_average_len)
-
-    for viz_grade in viz_grades:
-        lines.append(
-            f"| {viz_grade['subject']} | {' '.join(viz_grade['grades']).ljust(max_grades_len)} | {viz_grade['average']} |"
-        )
-
-    separator: str = f"+{'-' * (max_subject_len + 2)}+{'-' * (max_grades_len + 2)}+{'-' * (max_average_len + 2)}+"
-
-    for line in lines:
-        print(separator)
-        print(line)
     print(separator)
+    for line in lines:
+        print(line)
+        print(separator)
 
 
 if __name__ == "__main__":
