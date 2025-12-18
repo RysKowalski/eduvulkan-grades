@@ -2,7 +2,7 @@ import json
 from statistics import mean
 from typing import Literal
 from typing_stuff import (
-    FormatedLine,
+    FormattedLine,
     ProcessedGrade,
     ProcessedGradeList,
     LineWork,
@@ -104,19 +104,41 @@ def construct_LineWork(grades: SortedGrades) -> list[LineWork]:
             if grade["value"] is not None:
                 for _ in range(grade["weight"]):
                     item_grade_values.append(grade["value"])
-        item_average: str = str(mean(item_grade_values))
+        item_average: str = str(round(mean(item_grade_values), 3))
         constructed_grades.append(
-            {"subject": item_subject, "grades": item_grades, "average": item_average}
+            {
+                "subject": item_subject,
+                "subject_len": len(item_subject),
+                "grades": item_grades,
+                "average": item_average,
+            }
         )
     return constructed_grades
 
 
 def format_grades(
     grades: list[LineWork], max_subject_len, max_grade_len, max_average_len
-) -> list[FormatedLine]:
-    formated_lines: list[FormatedLine] = []
+) -> list[FormattedLine]:
+    formated_lines: list[FormattedLine] = []
     for grade in grades:
-        subject = grade["subject"].center(max_subject_len)
+        subject_str: str = grade["subject"] + (
+            " " * (max_subject_len - grade["subject_len"])
+        )
+
+        grades_visible_len: int = 0
+        grades_visible_list: list[str] = []
+        for grade_info in grade["grades"]:
+            grades_visible_len += grade_info["display_len"] + 1  # + space after
+            grades_visible_list.append(grade_info["grade"])
+        grades_str: str = " ".join(grades_visible_list) + (
+            " " * (max_grade_len - grades_visible_len)
+        )  # fills empty space with spaces
+
+        average_str: str = grade["average"].ljust(max_average_len)
+        formated_lines.append(
+            {"subject": subject_str, "grades": grades_str, "average": average_str}
+        )
+    return formated_lines
 
 
 def construct_lines(
@@ -124,12 +146,11 @@ def construct_lines(
 ) -> list[str]:
     uncolored_grades: list[LineWork] = construct_LineWork(grades)
     colored_grades: list[LineWork] = color_grade(uncolored_grades)
-    for line in colored_grades:
-        print(
-            line["subject"],
-            " ".join([g["grade"] for g in line["grades"]]),
-            line["average"],
-        )
+    formatted_lines: list[FormattedLine] = format_grades(
+        colored_grades, max_subject_len, max_grade_len, max_average_len
+    )
+    for line in formatted_lines:
+        print("|", line["subject"], "|", line["grades"], "|", line["average"], "|")
 
 
 def dev_viz(grades: SortedGrades) -> None:

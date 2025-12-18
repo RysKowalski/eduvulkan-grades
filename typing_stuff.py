@@ -101,20 +101,25 @@ class GradeInfo(TypedDict):
 class LineWork(TypedDict):
     """
     subject: str
+    subject_len: str
     grades: list[{"grade": str, "weight": int}]
     average: str
     """
 
     subject: str
+    subject_len: int
     grades: list[GradeInfo]
     average: str
 
 
-class FormatedLine(TypedDict):
+class FormattedLine(TypedDict):
     """
     subject: str
     grades: str
     average: str
+    subject_len: int
+    grades_len: int
+    average_len: int
     """
 
     subject: str
