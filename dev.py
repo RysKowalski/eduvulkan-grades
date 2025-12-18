@@ -50,7 +50,8 @@ def color_grade(raw_grades: list[LineWork]) -> list[LineWork]:
 
 def load_grades() -> ProcessedGradeList:
     with open("grades.json", "r") as file:
-        return json.load(file)
+        grades: ProcessedGradeList = json.load(file)
+    return sorted(grades, key=lambda g: g["subject"])
 
 
 def sort_grades(grade_list: ProcessedGradeList) -> SortedGrades:
@@ -171,13 +172,10 @@ def construct_lines(
 
 
 def construct_separator(subject_len: int, grades_len: int, average_len: int) -> str:
-    return (
-        f"+{'-' * (subject_len + 2)}+{'-' * (grades_len + 2)}+{'-' * (average_len + 2)}"
-    )
+    return f"+{'-' * (subject_len + 2)}+{'-' * (grades_len + 1)}+{'-' * (average_len + 2)}+"
 
 
 def dev_viz(grades: SortedGrades) -> None:
-    print(get_max_lenghts(grades))
     max_lenghts: tuple[int, int, int] = get_max_lenghts(grades)
     max_subject_len: int = max_lenghts[0]
     max_grade_len: int = max_lenghts[1]
