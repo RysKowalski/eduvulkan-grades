@@ -26,6 +26,7 @@ def rgb(
 
 
 RESET_COLOR: str = "\033[0m"
+BOLD: str = "\033[1m"
 
 SUBJECT_COLOR: str = rgb("fg", fg=(19, 255, 255))  # #14FFFF
 VALUE_COLORS: dict[int, str] = {
@@ -34,17 +35,33 @@ VALUE_COLORS: dict[int, str] = {
     3: rgb("fg", (255, 0, 0)),  # #FF0000
 }
 
+# #FF0000 #ED7835 #F8D448 #D2F950 #94FA4E #00FB00
+AVERAGE_COLORS: dict[int, str] = {
+    1: rgb("both", (0, 255, 255), (255, 0, 0)) + BOLD,
+    2: rgb("fg", (237, 120, 53)),
+    3: rgb("fg", (248, 212, 72)),
+    4: rgb("fg", (210, 249, 80)),
+    5: rgb("fg", (148, 250, 78)),
+    6: rgb("both", (237, 120, 53), (148, 250, 78)) + BOLD,
+}
+
 
 def color_grade(raw_grades: list[LineWork]) -> list[LineWork]:
     grades: list[LineWork] = raw_grades.copy()
     for i, grade in enumerate(grades):
         grades[i]["subject"] = SUBJECT_COLOR + grade["subject"] + RESET_COLOR
-        for i, grade_value_weight in enumerate(grade["grades"]):
-            grade["grades"][i]["grade"] = (
+        for j, grade_value_weight in enumerate(grade["grades"]):
+            grade["grades"][j]["grade"] = (
                 VALUE_COLORS[grade_value_weight["weight"]]
                 + grade_value_weight["grade"]
                 + RESET_COLOR
             )
+        print(grade["average"], i)
+        grades[i]["average"] = (
+            AVERAGE_COLORS[int(float(grade["average"]))]
+            + grade["average"]
+            + RESET_COLOR
+        )
     return grades
 
 
@@ -116,6 +133,7 @@ def construct_LineWork(
                 "subject_len": len(item_subject),
                 "grades": item_grades,
                 "average": item_average,
+                "average_len": len(item_average),
             }
         )
     return constructed_grades
@@ -139,7 +157,9 @@ def format_grades(
             " " * (max_grade_len - grades_visible_len)
         )  # fills empty space with spaces
 
-        average_str: str = grade["average"].ljust(max_average_len)
+        average_str: str = grade["average"] + (
+            " " * (max_average_len - grade["average_len"])
+        )
         formated_lines.append(
             {
                 "subject": subject_str,
@@ -175,7 +195,7 @@ def construct_separator(subject_len: int, grades_len: int, average_len: int) -> 
     return f"+{'-' * (subject_len + 2)}+{'-' * (grades_len + 1)}+{'-' * (average_len + 2)}+"
 
 
-def dev_viz(grades: SortedGrades) -> None:
+def vizualize(grades: SortedGrades) -> None:
     max_lenghts: tuple[int, int, int] = get_max_lenghts(grades)
     max_subject_len: int = max_lenghts[0]
     max_grade_len: int = max_lenghts[1]
@@ -197,4 +217,4 @@ def dev_viz(grades: SortedGrades) -> None:
 if __name__ == "__main__":
     ugr: ProcessedGradeList = load_grades()
     sgr: SortedGrades = sort_grades(ugr)
-    dev_viz(sgr)
+    vizualize(sgr)

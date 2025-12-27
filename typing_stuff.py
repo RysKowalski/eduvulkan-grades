@@ -110,6 +110,7 @@ class LineWork(TypedDict):
     subject_len: int
     grades: list[GradeInfo]
     average: str
+    average_len: int
 
 
 class FormattedLine(TypedDict):
