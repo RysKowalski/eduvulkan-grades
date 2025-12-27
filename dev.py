@@ -56,7 +56,6 @@ def color_grade(raw_grades: list[LineWork]) -> list[LineWork]:
                 + grade_value_weight["grade"]
                 + RESET_COLOR
             )
-        print(grade["average"], i)
         grades[i]["average"] = (
             AVERAGE_COLORS[int(float(grade["average"]))]
             + grade["average"]
