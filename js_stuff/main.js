@@ -32,11 +32,8 @@ async function main() {
     heb.selectedStudent.LastName
   );
 
-
-  const now = new Date();
-
-
   const resp = await heb.getGrades();
+  heb.parseFloat
 
   json = JSON.stringify(resp.Envelope, null, 2);
   fs.writeFileSync('../raw.json', json, 'utf8')

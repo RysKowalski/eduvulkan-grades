@@ -213,6 +213,8 @@ def vizualize(grades: SortedGrades) -> None:
         print(separator)
 
 
+# def add_global_average()
+
 if __name__ == "__main__":
     ugr: ProcessedGradeList = load_grades()
     sgr: SortedGrades = sort_grades(ugr)
