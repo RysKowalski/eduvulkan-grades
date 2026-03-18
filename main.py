@@ -42,7 +42,7 @@ AVERAGE_COLORS: dict[int, str] = {
     3: rgb("fg", (248, 212, 72)),
     4: rgb("fg", (210, 249, 80)),
     5: rgb("fg", (148, 250, 78)),
-    6: rgb("both", (237, 120, 53), (148, 250, 78)) + BOLD,
+    6: rgb("both", (255, 0, 0), (0, 200, 0)) + BOLD,
 }
 
 
@@ -57,7 +57,7 @@ def color_grade(raw_grades: list[LineWork]) -> list[LineWork]:
                 + RESET_COLOR
             )
         grades[i]["average"] = (
-            AVERAGE_COLORS[int(float(grade["average"]))]
+            AVERAGE_COLORS[round(float(grade["average"]))]
             + grade["average"]
             + RESET_COLOR
         )
