@@ -25,15 +25,15 @@ async function main() {
 
   // 5) select first student automatically
   await heb.selectStudent();
+  const now = new Date();
 
   console.log(
     "Selected:",
     heb.selectedStudent.FirstName,
-    heb.selectedStudent.LastName
+    heb.messages.get(0, 10)
   );
 
 
-  const now = new Date();
 
   // Monday as start of week
   const day = now.getDay() === 0 ? 7 : now.getDay();

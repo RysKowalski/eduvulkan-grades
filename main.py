@@ -29,7 +29,8 @@ RESET_COLOR: str = "\033[0m"
 BOLD: str = "\033[1m"
 
 SUBJECT_COLOR: str = rgb("fg", fg=(19, 255, 255))  # #14FFFF
-VALUE_COLORS: dict[int, str] = {
+WEIGHT_COLORS: dict[int, str] = {
+    0: rgb("fg", (30, 100, 255)),  # #1D64FF
     1: "",
     2: rgb("fg", (0, 255, 0)),  # #00FF00
     3: rgb("fg", (255, 0, 0)),  # #FF0000
@@ -52,7 +53,7 @@ def color_grade(raw_grades: list[LineWork]) -> list[LineWork]:
         grades[i]["subject"] = SUBJECT_COLOR + grade["subject"] + RESET_COLOR
         for j, grade_value_weight in enumerate(grade["grades"]):
             grade["grades"][j]["grade"] = (
-                VALUE_COLORS[grade_value_weight["weight"]]
+                WEIGHT_COLORS[grade_value_weight["weight"]]
                 + grade_value_weight["grade"]
                 + RESET_COLOR
             )
@@ -125,7 +126,10 @@ def construct_LineWork(
             if grade["value"] is not None:
                 for _ in range(grade["weight"]):
                     item_grade_values.append(grade["value"])
-        item_average: str = str(round(mean(item_grade_values), 3))
+        if len(item_grade_values) > 0:
+            item_average: str = str(round(mean(item_grade_values), 3))
+        else:
+            item_average = "1"
         constructed_grades.append(
             {
                 "subject": item_subject,
