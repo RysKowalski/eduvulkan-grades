@@ -10,13 +10,11 @@ def load_data() -> GradeList:
 
 def process_grade(grade: GradeItem) -> ProcessedGrade:
     subject: str = grade["Column"]["Subject"]["Name"][:20]
-    edited: int = grade["DateModify"]["Timestamp"]
     value: int = grade["Value"]
     content: str = grade["Content"]
     weight: int = grade["Column"]["Weight"]
     return {
         "subject": subject,
-        "edited": edited,
         "value": value,
         "content": content,
         "weight": weight,

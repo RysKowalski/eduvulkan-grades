@@ -87,8 +87,8 @@ def get_max_lenghts(
     takes sorted grades, outputs max lenghts of subjects, grades and averages after converting to str
     tuple[int: max_subject_len, int: max_grades_len, int: max_average_len]
     """
-    subject_lenghts: list[int] = []
-    grade_lenghts: list[int] = []
+    subject_lenghts: list[int] = [1]
+    grade_lenghts: list[int] = [1]
     for grade_key in sorted_grades.keys():
         subject_lenghts.append(len(grade_key))
         grades: list[str] = []
